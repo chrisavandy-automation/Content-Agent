@@ -1,5 +1,7 @@
 # Memory (card catalogue)
 One line per thing I've taught you, newest first, each linked to the file that holds it. Check here before searching the repo.
+- 2026-10-25 · Audience widened to marketers + business owners using Claude and marketing systems → `database/foundation/pillars.md`
+- 2026-10-25 · AI news = a format inside pillar 2 (news + what I did), not its own pillar → `database/foundation/pillars.md`
 
 - 2026-10-25 · The pillars file is the ICP: every skill reads it first → `database/foundation/pillars.md`
 - 2026-10-25 · Niche by transformation, not topic → `database/foundation/pillars.md`
