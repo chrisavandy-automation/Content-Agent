@@ -1,5 +1,7 @@
 # Memory (card catalogue)
 One line per thing I've taught you, newest first, each linked to the file that holds it. Check here before searching the repo.
+- 2026-10-25 · No virality scores: AI names the weakest lever, I decide what to post → `database/writing/virality.md`
+- 2026-10-25 · Hooks from one angle: 3 lanes (Value · Emotion · Story) × 5, each lane 4 proven + 1 wildcard → `database/writing/virality.md`
 - 2026-10-25 · Hooks: 5 per post = 4 proven (one plain) + 1 wildcard, written before the body → `database/writing/hooks.md`
 - 2026-10-25 · Notion for what I write daily (Story Bank), repo for what Claude reads constantly → `system/architecture.md`
 - 2026-10-25 · Ideation starts from small life moments: Story Bank + 6 story types + momentum loop → `database/ideation/life-inspiration.md`

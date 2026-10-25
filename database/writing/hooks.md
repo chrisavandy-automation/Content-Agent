@@ -39,11 +39,5 @@ Specific enough to grab the right people, broad enough to grab as many of them a
 - Don't force a number into every hook; one strong proof number, or none. (7, 9 and 17 Oct)
 - Take my short, human version over an engineered one. (9 Oct)
 
-## How skills write hooks (the battle test)
-1. Write the post's core idea and the reader's promise in one sentence each. If either is unclear, fix the idea first.
-2. Write **5 hooks: 4 proven + 1 wildcard** (`system/wildcard.md`). One of the 4 proven is `plain`.
-   - PROVEN: closest matches from `examples/hooks.md` and `examples/index.md` (same pillar + story type, best results first), plus the 10 types above. Name the example each one borrows from.
-   - WILDCARD: a hook type or shape I haven't used. Say which reference it breaks from.
-3. Check each against the best practices; lead with what's weak.
-4. Pick a winner with a one-line why. I can overrule or mix.
-5. Save the winner to `examples/hooks.md` (result filled in after posting).
+## How skills write hooks
+Follow the hook flow in `writing/virality.md`: one angle → 15 hooks in 3 lanes (Value · Emotion · Story), 5 each, each lane 4 proven + 1 wildcard, at least one `plain`. No scores: each hook gets its lane, its type, the example it borrows and its weakest lever. I pick, then save the winner to `examples/hooks.md` (result filled in after posting).

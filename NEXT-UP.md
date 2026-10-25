@@ -11,6 +11,7 @@ Delete items as they're done.
 - [ ] Migrate the old hook swipe file (LinkedIn-Agent `shared/hook-swipe-file.docx`) into `database/examples/hooks.md`.
 - [ ] Update the LinkedIn-Agent idea-story-bank skill to write to the Notion Story Bank (or retire it once the engine's version exists).
 - [ ] Voice file in `database/foundation/` (start from LinkedIn-Agent `shared/voice-profile.md`).
-- [ ] Hooks skill (database skill): reads `writing/hooks.md` + `examples/`; 4 proven + 1 wildcard.
+- [ ] Hooks skill (database skill): reads `writing/virality.md` + `writing/hooks.md` + `examples/`; 15 hooks in 3 lanes.
+- [ ] Write skill: follows `writing/workflow.md`.
 - [ ] Artifact skill: brand book in HTML, one inbox for everything made.
 - [ ] Self-triggered skills: after the dashboard exists.
