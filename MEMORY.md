@@ -1,5 +1,6 @@
 # Memory (card catalogue)
 One line per thing I've taught you, newest first, each linked to the file that holds it. Check here before searching the repo.
+- 2026-10-25 · Every hook needs a callout + a promise; hooks and drafts pass the 5Cs BEFORE they're shown to me, not only at the end → `database/writing/hooks.md` (the hook gate), `linkedin-write`
 - 2026-10-25 · Skill names: core-* = every channel (story bank, ideate); linkedin-* / youtube-* = per platform (hooks, write, review) → `system/architecture.md`
 - 2026-10-25 · Five skills, one job each; linkedin-write chains hooks → body → review; the reviewer never marks its own work → `.claude/skills/`
 - 2026-10-25 · Ideas live in the Notion Idea Bank (linked to the Story Bank) from Idea to Posted → `database/README.md`

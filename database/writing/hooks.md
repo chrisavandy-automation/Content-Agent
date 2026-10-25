@@ -25,9 +25,15 @@ Specific enough to grab the right people, broad enough to grab as many of them a
 | `icp-callout` | ICP callout | If you're a [who] who [struggle]: |
 | `plain` | Plain (my addition) | A direct statement of what changed, in my everyday words. No contrast, twist or punchline. |
 
-## Best practices (check every hook)
-- [ ] Callout: is it clear who it's for?
-- [ ] Promise: is it clear what they get?
+## The hook gate (pass/fail, run BEFORE any hook is shown to me)
+Any FAIL is rewritten or dropped before I see the set. Never show a hook that fails.
+1. **Callout:** a reader can tell it's for them (named, or clearly implied by their situation, e.g. "my ad work in Claude chats").
+2. **Promise:** a reader can tell what they get by reading on (a how, a result, a reveal, a story payoff).
+3. **The 5Cs** (`writing/gate.md` section A): Clear (one idea, grade-5 words) · Concise (every word costs $10) · Concrete (a real detail or number, or a [bracket] for one I must supply) · Conversational (I'd say it out loud) · Cadence (fits above "see more", lines vary).
+4. **Anti-AI:** `tools/slop_check.py` clean.
+5. **True:** every detail comes from my brain dump, the Story Bank or a screenshot I've shared. No claims I haven't made.
+
+## Best practices (lift a hook that already passes the gate)
 - [ ] Curiosity gap: is something missing that they need the post to find out (an unexpected twist)?
 - [ ] Specific: real numbers, times, tools ("after 118 enquiries" beats "after lots of testing").
 - [ ] Credibility: a number, a borrowed name (credited), or first person (I / my).
