@@ -7,7 +7,7 @@ The best content zooms in on small, ordinary moments, not big flashy ones (11 of
 
 ## Where the raw material lives
 - **Story Bank:** at the end of each day, 5 minutes: the ONE most story-worthy thing. A few words or a sentence, enough to trigger the memory. Voice is fine (WisprFlow or a voice note). Jay keeps one Notion page per day, titled by date.
-- Current bank: LinkedIn-Agent `shared/story-bank.docx` [moves here once the story database is set up].
+- Current bank: Notion → Content Engine → **Story Bank** database (21 entries moved from the old .docx on 25 Oct). Claude or Grok fills it; see `database/README.md` for the columns.
 - At ideation, read the last 7 days of entries first, then older ones that match a story type that's been missing.
 
 ## The 6 story types (tag every idea with one)

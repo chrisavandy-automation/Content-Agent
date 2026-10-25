@@ -8,8 +8,9 @@ Delete items as they're done.
 ## Then
 - [ ] Migrate Jay Yang's 100 tagged posts (LinkedIn-Agent `Writing Coach/course/jay-yang-library.md`) into `database/examples/`, retagged with the new vocabulary; then my own posts with results.
 - [ ] Ideate skill (Sunday): reads pillars → ideation → Story Bank → examples index; pitches 7/2/1.
-- [ ] Story Bank: decide where it lives (Notion page per day like Jay, or a file here).
+- [ ] Migrate the old hook swipe file (LinkedIn-Agent `shared/hook-swipe-file.docx`) into `database/examples/hooks.md`.
+- [ ] Update the LinkedIn-Agent idea-story-bank skill to write to the Notion Story Bank (or retire it once the engine's version exists).
 - [ ] Voice file in `database/foundation/` (start from LinkedIn-Agent `shared/voice-profile.md`).
-- [ ] Hook bank + first database skill: today's hooks = 4 proven + 1 wildcard.
+- [ ] Hooks skill (database skill): reads `writing/hooks.md` + `examples/`; 4 proven + 1 wildcard.
 - [ ] Artifact skill: brand book in HTML, one inbox for everything made.
 - [ ] Self-triggered skills: after the dashboard exists.

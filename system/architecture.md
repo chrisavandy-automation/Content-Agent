@@ -11,6 +11,10 @@ Built on the ARMS framework (Apps, Routines, Memory, Skills) from the RoboNugget
 
 Quick test: ask "where's X?". If Claude opens more than 3 files, the map needs another layer.
 
+## Where data lives
+- What I write day to day (Story Bank, journals) lives in **Notion**: easy to read and fill from my phone or by voice. Skills query it narrowly.
+- What Claude reads constantly (pillars, writing rules, examples) lives in **this repo**: cheap, fast, versioned, and works without a connector.
+
 ## Skills
 | Type | What it does | Status |
 |---|---|---|

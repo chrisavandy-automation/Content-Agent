@@ -3,6 +3,7 @@ The proven material the skills copy the SHAPE of, never the words. This is what 
 
 ## How it's laid out
 - `index.md`: one row per example. Skills read this first and filter on the tags; they open only the 2-3 example files that match.
+- `hooks.md`: the hook swipe file (hooks only, same tags).
 - `<creator>.md`: the full posts for one creator, each under a `## <id>` heading with the same id as the index.
 
 ## Index columns (shared tag vocabulary, so ideas and examples join up)
@@ -15,8 +16,8 @@ The proven material the skills copy the SHAPE of, never the words. This is what 
 | story | far-past · recent-past · current · future · client · hypothetical · none | `ideation/life-inspiration.md` |
 | arr | authority · reach · resonance | `foundation/pillars.md` |
 | momentum | ask · whisper · tease · shout · win · remind · next · none | `ideation/life-inspiration.md` |
-| hook | the hook type (milestone, hot take, moment in time, question, ...) | |
-| structure | the body shape (small moment, list, before/after, story-lesson, ...) | |
+| hook | announcement · authority-how · authority-lessons · stance · hot-take · moment · question · vulnerable · insight · icp-callout · plain | `writing/hooks.md` |
+| structure | announcement · transformation · listicle · life-update · hot-take · carousel · day-x · icp-callout · meme · x-screenshot (or a new tag, added to `writing/structures.md` first) | `writing/structures.md` |
 | result | likes / comments (and saves, impressions if known) | |
 | why it worked | one line | |
 
