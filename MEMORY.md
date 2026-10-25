@@ -1,5 +1,7 @@
 # Memory (card catalogue)
 One line per thing I've taught you, newest first, each linked to the file that holds it. Check here before searching the repo.
+- 2026-10-25 · Ideation starts from small life moments: Story Bank + 6 story types + momentum loop → `database/ideation/life-inspiration.md`
+- 2026-10-25 · Examples share one tag vocabulary with ideas (pillar · story type · ARR · momentum) so skills can match them → `database/examples/README.md`
 - 2026-10-25 · Audience wants more money + more time via AI/systems; they are lifestyle-driven, so "who I am" is the in-group signal → `database/foundation/pillars.md`
 - 2026-10-25 · Side business + £10k goal stay out of public content until I confirm → `database/foundation/pillars.md`
 - 2026-10-25 · Pillars = one per superpower (build / how to / finding + learning) + who I am; filter: "can I teach this with Claude or GHL?" → `database/foundation/pillars.md`

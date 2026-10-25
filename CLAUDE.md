@@ -8,6 +8,8 @@ This file is a map, not a rulebook. Open only the files the job needs.
 |---|---|
 | Who I help, the transformation, my content pillars (the ICP) | `database/foundation/pillars.md` |
 | What's in the database and how each file is structured | `database/README.md` |
+| How to find ideas (story types, prompts, momentum loop) | `database/ideation/` |
+| Proven posts to borrow the shape of (tagged index) | `database/examples/index.md` |
 | Raw lessons and course material I've fed in | `database/sources/` (never edit; distil into the database instead) |
 | How the system is built (skill types, wildcards, memory layers) | `system/architecture.md` |
 | What a wildcard is | `system/wildcard.md` |
