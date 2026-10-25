@@ -2,7 +2,7 @@
 Delete items as they're done.
 
 ## Now: foundations
-- [ ] Answer the [CONFIRM] lines in `database/foundation/pillars.md`, then mark it v1.0.
+- [x] Pillars v1.0 done (25 Oct). Open: can the side business + £10k goal go public? (after talking to Gary)
 - [ ] Feed in the next lessons; each becomes a source file plus a database file.
 
 ## Then

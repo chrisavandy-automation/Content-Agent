@@ -1,5 +1,5 @@
 # Content pillars (the ICP)
-Status: DRAFT v0.3 (2026-10-25: kept broad, pillars mapped to my superpowers). Built from LinkedIn-Agent `shared/foundation.md` (30 Sep), the niche-and-pillars lesson (`database/sources/niche-and-pillars-lesson.md`) and my Notion "Your Superpowers: The Breakdown" (13 Oct). Lines marked **[CONFIRM]** need my answer. Change this file only with my OK.
+Status: v1.0 (2026-10-25: broad audience, pillars mapped to my superpowers, Power + Likeness answered). Built from LinkedIn-Agent `shared/foundation.md` (30 Sep), the niche-and-pillars lesson (`database/sources/niche-and-pillars-lesson.md`) and my Notion "Your Superpowers: The Breakdown" (13 Oct). Open: the stance on my side business (section 7). Change this file only with my OK.
 Read by: every content skill, on every platform, before it pitches or writes anything.
 
 ## 1. Who I help
@@ -37,10 +37,11 @@ Honest gap (Superpowers breakdown): I'm the architect, not the copywriter. No co
 
 ## 5. PTL: how each piece builds influence
 ### Power (show I have what they want)
-What they want **[CONFIRM: my best guess, not yet checked with real comments or calls]**:
-- External: hours back every week, more leads and clients without more hires, reports they trust, campaigns and content out faster, being ahead of competitors on AI, (for marketers) a better role or pay.
-- Internal: control and calm, not feeling left behind by AI, freedom from being the bottleneck, being the go-to person who "gets AI", pride in a business that runs well.
-How I show it: verbally (time saved, volumes, things shipped, Publish30 milestones) and visually (the dashboard, the workflow, the screenshot).
+What they want (my answer, 2026-10-25):
+- **More money and more revenue.**
+- **More time, and time saved.**
+- The route: using AI and marketing systems to automate, work smarter and be more efficient.
+How I show it: verbally (time saved, revenue or leads won back, things shipped, milestones) and visually (the dashboard, the workflow, the screenshot).
 
 ### Trust (directions they can follow and win with)
 Step-by-step directions I can give **[CONFIRM / add]**:
@@ -51,9 +52,9 @@ Step-by-step directions I can give **[CONFIRM / add]**:
 - Copy-paste prompts and SOPs (e.g. the board of advisors prompt, the free Claude session on 31 Dec).
 
 ### Likeness (in-group)
-- External: UK, 30, casual, talks like a mate sat next to you at the screen, self-taught on the tools.
-- Internal: keep it simple, verify before automating, one clear focus, automation only amplifies what's already there.
-**[CONFIRM]** Their attributes (age, background, what they wear and say) so I can mirror them.
+Them: lifestyle-driven. They want a business that gives them a life (time, freedom, the gym, the sun, family), not one that runs their life.
+Me (mirror it): UK, 30, casual, talks like a mate sat next to you at the screen, self-taught on the tools, protects gym mornings and evenings with Naz, wants somewhere hot and sunny. Beliefs: keep it simple, verify before automating, automation only amplifies what's already there.
+So pillar 4 (who I am) does real work: the lifestyle is the in-group signal, not filler.
 
 ## 6. ARR: the content types
 | Type | Job | Formats |
@@ -66,7 +67,7 @@ Mix (from LinkedIn, to revisit): about 1 build post per 3-4 other posts, a weekl
 ## 7. Stance
 - Content teaches and documents what I build and learn. No piece is written to sell; no "DM me to work together".
 - I'm employed at Systemise and Scale: never use SAS clients, numbers, templates or internal plans. Never vent about clients, even anonymised.
-- **[CONFIRM after I've spoken to Gary]** Whether my side business and my £10k goal can be mentioned in public.
+- **Side business and the £10k goal stay out of public content** until I confirm otherwise (after I've spoken to Gary). Material from it can still be used, anonymised, without saying it's my business.
 
 ## 8. The checklist (every skill runs it before handing me a piece)
 - [ ] Who is this helping?
