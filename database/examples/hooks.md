@@ -4,6 +4,7 @@ Migrated 2026-10-25 from LinkedIn-Agent `shared/hook-swipe-file.docx` (type and 
 
 | Date | Hook (first 1-2 lines) | Type | Lane | Creator | Pillar (mine only) | Mix | Result | Original notes |
 |---|---|---|---|---|---|---|---|---|
+| 2026-10-25 | I used to do all my ad work in Claude chats. / Now it runs in an app I built. Here's how it works: | stance | emotion | Mine (shape from jay-029; fixed through the hook gate) | 1 build | Proven | [after posting] | Day 25. First hook through linkedin-hooks. Original "Now I'd never go back" failed promise + concrete |
 | 2026-10-17 | 50 ad creatives by hand would've taken me days. / Claude took a couple of hours. / Here are the other 7 marketing jobs I hand it: | authority-how | value | Mine (shape from Jay #77 + Alex Vacca "21 MCP connections") | | 70 | [after posting] | Authority + how (before/after contrast + list teaser) . proof, stakes, plan, curiosity gap ("the other 7") |
 | 2026-10-09 | If you paste the same prompt into Claude every week, please stop... (see more) And start leveraging Claude skills + routines. | Please don't (habit callout + open loop) |  | Mine | | 70 | [after posting] | Please don't (habit callout + open loop) |
 | 2026-10-07 | Is AI making you dumber at learning? Maybe. Here's how I make sure it doesn't | stance | emotion | Mine | | 10 | [after posting] | Thought-provoking question + soft stance + 'how I' open loop |

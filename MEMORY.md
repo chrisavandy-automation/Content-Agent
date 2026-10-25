@@ -1,5 +1,6 @@
 # Memory (card catalogue)
 One line per thing I've taught you, newest first, each linked to the file that holds it. Check here before searching the repo.
+- 2026-10-25 · Don't nitpick screenshots or numbers I've already cleaned; my employer on my profile is fine. The point of a build post is what it does, not exact figures → `database/writing/workflow.md`
 - 2026-10-25 · Every hook needs a callout + a promise; hooks and drafts pass the 5Cs BEFORE they're shown to me, not only at the end → `database/writing/hooks.md` (the hook gate), `linkedin-write`
 - 2026-10-25 · Skill names: core-* = every channel (story bank, ideate); linkedin-* / youtube-* = per platform (hooks, write, review) → `system/architecture.md`
 - 2026-10-25 · Five skills, one job each; linkedin-write chains hooks → body → review; the reviewer never marks its own work → `.claude/skills/`
