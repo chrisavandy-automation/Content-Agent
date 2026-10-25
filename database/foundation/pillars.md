@@ -44,7 +44,7 @@ What they want (my answer, 2026-10-25):
 How I show it: verbally (time saved, revenue or leads won back, things shipped, milestones) and visually (the dashboard, the workflow, the screenshot).
 
 ### Trust (directions they can follow and win with)
-Step-by-step directions I can give **[CONFIRM / add]**:
+Step-by-step directions I can give (starter list; add to it as I teach):
 - Turn a prompt you paste every week into a skill, then a routine.
 - Check a process by hand before you automate it.
 - Connect Claude to one tool you use every day, then give it one job.
