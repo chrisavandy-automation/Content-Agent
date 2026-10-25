@@ -1,34 +1,39 @@
 # Content pillars (the ICP)
-Status: DRAFT v0.2 (2026-10-25, audience widened). Carried over from LinkedIn-Agent `shared/foundation.md` (30 Sep) and restructured around the niche-and-pillars lesson (`database/sources/niche-and-pillars-lesson.md`). Lines marked **[CONFIRM]** need my answer. Change this file only with my OK.
+Status: DRAFT v0.3 (2026-10-25: kept broad, pillars mapped to my superpowers). Built from LinkedIn-Agent `shared/foundation.md` (30 Sep), the niche-and-pillars lesson (`database/sources/niche-and-pillars-lesson.md`) and my Notion "Your Superpowers: The Breakdown" (13 Oct). Lines marked **[CONFIRM]** need my answer. Change this file only with my OK.
 Read by: every content skill, on every platform, before it pitches or writes anything.
 
 ## 1. Who I help
-Widened 2026-10-25: **marketers and business owners who want to use Claude, and marketing systems in general, to run their marketing.**
-- Business owners: coaches, consultants, service and course businesses doing their own marketing or with a small team.
-- Marketers: in-house marketers, heads of growth, marketing ops and agency people who want AI to do real work, not just chat.
-- Still in the room: the people who'd hire someone like me (heads of growth, founders at direct-response businesses).
-Where they are now: mostly chatting with ChatGPT or Claude, some using Projects, almost none connecting AI to the tools that actually do the job.
+Kept broad on purpose: **business owners running Meta ads, and marketers, who want Claude and marketing systems to do the work.**
+- Business owners: anyone paying for ads and leads who does their own marketing or has a small team.
+- Marketers: in-house, heads of growth, marketing ops and agency people who want AI to do real work, not just chat.
+- Where they are now: mostly chatting with ChatGPT or Claude, some using Projects, almost none connecting AI to the tools that actually do the job.
+
+What the content is for: building a name and an audience by teaching. It is NOT the lead-gen channel for my offers (my buyers mostly aren't on LinkedIn). If a buyer finds me through it, great, but no piece is written to sell.
+Side projects (e.g. Lead Leak Fix) are a source of material, never the frame: a post can use what I found or built there, but the pillars and the audience stay broad.
 
 ## 2. The transformation (niche = the person they become, not the topic)
-- **A (before):** Claude is a chat box. The same prompt gets pasted every week, quality drifts in long chats, the tools aren't connected, reports are built by hand, and the owner or the marketer is the bottleneck for everything.
-- **Z (after):** Claude is connected to their tools, repeatable jobs are skills and routines that run without them, the numbers are ones they trust, and they've got hours back every week.
+- **A (before):** Claude is a chat box. The same prompt gets pasted every week, the tools aren't connected, leads they pay for go cold, nobody knows which ad made which sale, reports are built by hand, and the owner or the marketer is the bottleneck.
+- **Z (after):** Claude is connected to their tools, repeatable jobs are skills and routines that run without them, every lead gets a fast reply, the numbers are ones they trust, and they've got hours back every week.
 - **In one line:** from using AI as a chat box to running your marketing on systems.
 
 ## 3. The association I want
-The person who shows you how to make Claude and your marketing systems do the work: practical, tested on real marketing, kept simple.
-Branding = pairing. Keep pairing my name with: working builds, real numbers, Claude used on real marketing work, simple steps people can copy.
+**"I design, build and measure the systems behind marketing, and teach people how to run them."** (my one-liner, Superpowers breakdown)
+Branding = pairing. Keep pairing my name with: working builds, real numbers, Claude and GoHighLevel used on real marketing, simple steps people can copy.
 
-## 4. The pillars
+## 4. The pillars (one per superpower, plus me)
 Every post or video belongs to exactly one. A skill names the pillar on every idea it pitches.
+Filter for every idea in pillars 1-3: **"Can I teach this with Claude or GoHighLevel?"** If not, rework it or drop it.
 
-| # | Pillar | What goes in it | Proof it uses | Guardrails |
-|---|---|---|---|---|
-| 1 | **What I build** | The ops machine: reports and dashboards, QA and compliance agents, GHL pages and sequences, SOPs, AI automations of repeatable work (reporting, checks, reconciliation, ad creation) | Screenshots (blurred), real workflows, before/after time or numbers | Only builds that are running. Kept thin: full post for exciting builds; in-progress builds get a one-line tease. SAS numbers only with Gary's OK. |
-| 2 | **What I'm learning** | Marketing systems, paid acquisition, AI and automation: courses, communities, agency life, my mistakes. Includes AI news as a format: the news, then what I actually did about it | My lesson + what I changed because of it | Never the course's content wholesale; anonymise private/paid sources; credit public creators by name. AI news: verify every fact, sources in the first comment. |
-| 3 | **Who I am** | Walks, gym, basketball, rugby past, One Piece, sun, Santorini, family and partner moments | Photos from `photos/` (LinkedIn-Agent) | Funny, not goofy. |
+| # | Pillar | Superpower | What goes in it | Proof it uses | Guardrails |
+|---|---|---|---|---|---|
+| 1 | **What I build** | Build | Marketing systems I've taken from idea to working: CRM and automations, AI agents, follow-up, booking, API connections, dashboards, Claude skills and routines | Screenshots (blurred), screen-share walkthroughs, before/after time or numbers | Only builds that are running. Kept thin: full piece for exciting builds; in-progress builds get a one-line tease. |
+| 2 | **How to do it** | Teach | Step-by-step how-tos: the fix, the prompt, the setup, the checklist, explained in plain words so anyone can follow it | The reader gets a result by following it (that's Trust) | One job per piece. Build-first formats (screen share, voiceover, written breakdown) until the camera confidence is back. |
+| 3 | **What I'm finding and learning** | Architect + Measure | What breaks in marketing systems and how I spot it (no follow-up, slow replies, broken tracking, which ad made which sale), plus what I'm learning from courses, communities and AI news | My finding or lesson + what I changed because of it; real counts where I have them | Anonymise every business I look at, never name them. Never a course's content wholesale; credit public creators by name. AI news: the news, then what I did about it; verify every fact, sources in the first comment. |
+| 4 | **Who I am** | (Likeness) | Walks, gym, basketball, rugby past, One Piece, sun, Santorini, Naz and family, my goals and how I'm getting on | Photos from `photos/` (LinkedIn-Agent) | Funny, not goofy. |
 
 Subtopics are allowed if they serve the A → Z (productivity, habits, consistency, learning in public all count).
-AI news sits inside pillar 2 as a format, not its own pillar (decided 2026-10-25, review at the end of November). Why: news on its own pairs me with "news", which anyone can post; "the news, then what I did about it" pairs me with using it. Promote it to a pillar only if AI news posts clearly outperform and I'm posting it several times a week.
+AI news sits inside pillar 3 as a format, not its own pillar (decided 2026-10-25, review at the end of November). Why: news on its own pairs me with "news", which anyone can post; "the news, then what I did about it" pairs me with using it.
+Honest gap (Superpowers breakdown): I'm the architect, not the copywriter. No content that positions me as a copy critic.
 
 ## 5. PTL: how each piece builds influence
 ### Power (show I have what they want)
@@ -56,16 +61,18 @@ Step-by-step directions I can give **[CONFIRM / add]**:
 | Authority | Show competence | Teach something tactical, personal lessons, build breakdowns, client-work lessons (anonymised) |
 | Reach | Get seen | Trend-jacking (AI news), humour, shareable one-liners |
 | Resonance | Build connection | Personal stories (I thought X, now Y), core values, contrarian takes |
-Mix (from LinkedIn): about 1 build post per 3-4 learning or life posts, a weekly milestone, light posts at weekends.
+Mix (from LinkedIn, to revisit): about 1 build post per 3-4 other posts, a weekly milestone, light posts at weekends.
 
-## 7. Stance (while I'm employed at Systemise and Scale)
-- Content documents what I learn and build. No pitching services, no "DM me to work together", nothing that reads as my own consultancy or agency.
-- Never vent about clients, even anonymised. Never name clients. Never post SAS's internal plans.
+## 7. Stance
+- Content teaches and documents what I build and learn. No piece is written to sell; no "DM me to work together".
+- I'm employed at Systemise and Scale: never use SAS clients, numbers, templates or internal plans. Never vent about clients, even anonymised.
+- **[CONFIRM after I've spoken to Gary]** Whether my side business and my £10k goal can be mentioned in public.
 
 ## 8. The checklist (every skill runs it before handing me a piece)
 - [ ] Who is this helping?
 - [ ] Which part of the A → Z does it move them along?
-- [ ] Which pillar? (1 build / 2 learning / 3 who I am)
+- [ ] Which pillar? (1 build / 2 how to / 3 finding + learning / 4 who I am)
+- [ ] Pillars 1-3: can I teach this with Claude or GoHighLevel?
 - [ ] Power, Trust or Likeness?
 - [ ] Authority, Reach or Resonance?
 - [ ] Does it pair me with the association in section 3?

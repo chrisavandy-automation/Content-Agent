@@ -4,7 +4,7 @@ Everything the skills know. Plain text only. Each file below lists what it holds
 ## foundation/ (who I am and who I'm for: read first)
 | File | Holds | Structure |
 |---|---|---|
-| `foundation/pillars.md` | The ICP: who I help, A → Z, association, pillars, PTL, ARR, stance, pre-publish checklist | Numbered sections 1-8. Pillars table: # · Pillar · What goes in it · Proof · Guardrails |
+| `foundation/pillars.md` | The ICP: who I help, A → Z, association, pillars, PTL, ARR, stance, pre-publish checklist | Numbered sections 1-8. Pillars table: # · Pillar · Superpower · What goes in it · Proof · Guardrails |
 
 Coming next (as I feed them in): voice, stories, proof and numbers, hooks, formats.
 
@@ -14,6 +14,7 @@ Kept as-is so we can always go back to the original. Distil what matters into a 
 |---|---|
 | `sources/niche-and-pillars-lesson.md` | LinkedIn course lesson: brand = pairing, PTL, ARR, niche by transformation, checklist |
 | `sources/arms-agentic-os-v2-guide.pdf` | RoboNuggets ARMS v2 guide: the 12 levels this system is built on (distilled in `system/architecture.md`) |
+| Notion: "Your Superpowers: The Breakdown" (North Star + Superpowers) | Build / Architect + Measure / Teach, the one-liner, the camera point. Distilled into `foundation/pillars.md` (not copied here; read it in Notion) |
 
 ## Adding a file
 1. Put it in the right folder (`foundation/` for identity; new folders for banks like hooks or stories).
