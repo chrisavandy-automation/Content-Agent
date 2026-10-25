@@ -1,6 +1,6 @@
 # LinkedIn engine
 Platform-specific only: formats, lengths, algorithm notes and LinkedIn skill references. Pillars, voice and stories come from `database/`.
-Status: not built yet. The working coaches still live in the LinkedIn-Agent repo; move pieces here one at a time.
+Skills: `linkedin-hooks`, `linkedin-write`, `linkedin-review` (plus the shared `core-story-bank`, `core-ideate`). The old coaches still live in the LinkedIn-Agent repo until this engine has proved itself.
 
 ## Platform notes (carried over from LinkedIn-Agent; update as I learn)
 - The hook must fit above "see more": about 2 short lines on mobile.

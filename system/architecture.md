@@ -18,16 +18,16 @@ Quick test: ask "where's X?". If Claude opens more than 3 files, the map needs a
 ## Skills
 | Type | What it does | Status |
 |---|---|---|
-| Database skill | Holds knowledge (examples + principles), not just steps. Reads `database/`. Pitches 70/20/10 with wildcards on by default. | Built 25 Oct: `core-story-bank` (haiku), `core-ideate`, `core-hooks`, `core-write`, `core-review` (sonnet) |
+| Database skill | Holds knowledge (examples + principles), not just steps. Reads `database/`. Pitches 70/20/10 with wildcards on by default. | Built 25 Oct: `core-story-bank` (haiku), `core-ideate`, `linkedin-hooks`, `linkedin-write`, `linkedin-review` (sonnet) |
 | Artifact skill | Makes posts, graphics, decks in HTML first from one brand book; exports at the end; saves to one inbox with an index | Next |
 | Self-triggered skill | Runs from a dashboard button with `claude -p` | Waits for the dashboard |
 
 Skill rules:
 - Short `SKILL.md`; the examples and principles live in a database file the skill points to.
-- Name skills by engine: `core-*` (shared), `linkedin-*`, `youtube-*`.
+- Name skills by engine: `core-*` for jobs shared by every channel (story bank, ideate), `linkedin-*` / `youtube-*` for platform jobs (hooks, write, review differ per platform). Platform skills share the same `database/`; only `engines/<platform>/` differs.
 - Every content skill starts by reading `database/foundation/pillars.md`.
 - When I like a wildcard, offer to add it to the references (that's how the database grows).
-- Model pins (ARMS L2): fixed-step skills pin a small model in their frontmatter (`core-story-bank` haiku, `core-review` sonnet); copy skills stay unpinned. If a pinned skill gets a step wrong, move that step up one model, not the whole skill.
+- Model pins (ARMS L2): fixed-step skills pin a small model in their frontmatter (`core-story-bank` haiku, `linkedin-review` sonnet); copy skills stay unpinned. If a pinned skill gets a step wrong, move that step up one model, not the whole skill.
 - Later (ARMS L3): let feedback sharpen the skill (a principle, not another rule).
 
 ## Engines

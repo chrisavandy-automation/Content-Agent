@@ -1,11 +1,11 @@
 ---
-name: core-hooks
-description: Writes 15 hooks for one angle in three lanes (Value, Emotion, Story; 5 each, 4 proven + 1 wildcard per lane), tags each with its type, the example it borrows from and its weakest lever, with no scores, and saves my pick to the hook swipe file. Use for every post before the body (step 3 of core-write), for YouTube titles and openers, or when I say "hooks for…" or paste hooks to try.
+name: linkedin-hooks
+description: Writes 15 hooks for one angle in three lanes (Value, Emotion, Story; 5 each, 4 proven + 1 wildcard per lane), tags each with its type, the example it borrows from and its weakest lever, with no scores, and saves my pick to the hook swipe file. LinkedIn only (YouTube gets its own). Use for every LinkedIn post before the body (step 4 of linkedin-write), or when I say "hooks for…" or paste hooks to try.
 ---
 
 # Hooks
 Reads: `database/writing/virality.md` (lanes, levers, the flow), `database/writing/hooks.md` (types, checklist, my rules), `database/examples/hooks.md` and `database/examples/index.md` (proven hooks: filter by lane and type, best results first; quote only the 1-3 you borrow), `database/writing/anti-ai.md`.
-Platform notes (title length etc.): `engines/<platform>/README.md`.
+Platform notes (fit above "see more"): `engines/linkedin/README.md`.
 
 1. **Angle:** confirm in one line: idea · reader promise · target emotion · pillar. If any is fuzzy, fix it with me first.
 2. **15 hooks: Value 5 · Emotion 5 · Story 5.** In each lane: 4 PROVEN (each names what it borrows: an example id or a hook type) + 1 WILDCARD (names the reference it breaks from). At least one `plain` hook in the set. Use only real details from the brain dump or Story Bank; a missing number stays a [bracket].

@@ -6,9 +6,9 @@ Delete items as they're done.
 - [x] Lessons fed in (25 Oct): niche & pillars, life inspiration, hooks, structures, AI assist, viral formats, editing checklist, 5Cs.
 
 ## Then
-- [x] Skills built (25 Oct): core-story-bank, core-ideate, core-hooks, core-write, core-review. Examples: 100 Jay hooks + 75 swipe hooks migrated (tags auto-mapped: correct as used).
-- [ ] FIRST REAL RUN: one post end to end with core-write; fix whatever breaks.
-- [ ] Add my own Publish30 posts with results to `database/examples/` (numbers in LinkedIn-Agent NEXT-UP.md), and the Max Yang / Alex Vacca posts.
+- [x] Skills built (25 Oct): core-story-bank, core-ideate, linkedin-hooks, linkedin-write, linkedin-review. Examples: 100 Jay hooks + 75 swipe hooks migrated (tags auto-mapped: correct as used).
+- [ ] FIRST REAL RUN: one post end to end with linkedin-write; fix whatever breaks.
+- [x] 17 of my posted posts added (25 Oct). Still missing: Day 11 (Coxin), 15, 19, and impressions/saves for all (Grok to pull from my profile). Then Max Yang / Alex Vacca posts.
 - [ ] Move the open LinkedIn-Agent Idea Bank ideas (shared/idea-bank.docx) into the Notion Idea Bank.
 - [ ] Update the LinkedIn-Agent idea-story-bank skill to write to the Notion Story Bank (or retire it once the engine's version exists).
 - [ ] Voice file in `database/foundation/` (start from LinkedIn-Agent `shared/voice-profile.md`).

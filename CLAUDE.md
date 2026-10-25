@@ -18,7 +18,7 @@ This file is a map, not a rulebook. Open only the files the job needs.
 | What a wildcard is | `system/wildcard.md` |
 | LinkedIn engine | `engines/linkedin/README.md` |
 | YouTube engine | `engines/youtube/README.md` |
-| Skills (one per job) | `.claude/skills/`: `core-story-bank` (log a moment) · `core-ideate` (10 ideas, Sunday) · `core-hooks` (15 hooks, 3 lanes) · `core-write` (idea → gated draft) · `core-review` (the gate) |
+| Skills (one per job) | `.claude/skills/`: `core-story-bank` (log a moment) · `core-ideate` (10 ideas, Sunday) · `linkedin-hooks` (15 hooks, 3 lanes) · `linkedin-write` (idea → gated draft) · `linkedin-review` (the gate) |
 | Drafts | `engines/<platform>/drafts/YYYY-MM-DD-slug.md` |
 | Story Bank, Idea Bank | Notion → Content Engine (ids in `database/README.md`) |
 | What I've taught you (one line each) | `MEMORY.md` |

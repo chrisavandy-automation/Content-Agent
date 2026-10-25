@@ -1,8 +1,25 @@
 # Examples index
-One row per example, best results first within each creator. Columns: see README.md. Rows marked by creator; tags on external examples were auto-mapped on 2026-10-25 from the original tags (story, lane and structure are best guesses: correct them as you use them).
+One row per example. My own posts first (they're the best reference: my voice, my audience), then other creators by results. Columns: see README.md. Rows marked by creator; tags on external examples were auto-mapped on 2026-10-25 from the original tags (story, lane and structure are best guesses: correct them as you use them).
 
 | id | creator | platform | pillar | story | lane | hook | structure | result | notes |
 |---|---|---|---|---|---|---|---|---|---|
+| chris-01 | chris | linkedin | 4 who I am | current | story | announcement | announcement | 10/12/2 | 2026-10-01; Day 1/30; Publish30 intro + who I am list |
+| chris-02 | chris | linkedin | 1 build | current | value | plain | listicle | 1/0/1 | 2026-10-02; Day 2/30; teaching post; trailed |
+| chris-03 | chris | linkedin | 4 who I am | recent-past | story | moment | story | 10/8/0 | 2026-10-03; Day 3/30; Santorini + helmet backwards; photo |
+| chris-04 | chris | linkedin | 3 finding | far-past | story | authority-lessons | transformation | 21/11/1 | 2026-10-04; Day 4/30; BEST so far (2x avg): first-person stakes, agency vs alone |
+| chris-05 | chris | linkedin | 2 how to | none | value | authority-how | listicle | 10/10/1 | 2026-10-05; Day 5/30; 5-step process + free prompt |
+| chris-06 | chris | linkedin | 3 finding | none | value | insight | listicle | 3/1/0 | 2026-10-06; Day 6/30; someone else's story; trailed |
+| chris-07 | chris | linkedin | 3 finding | recent-past | emotion | question | story | 10/6/1 | 2026-10-07; Day 7/30; giveaway (link to the Reps doc) |
+| chris-08 | chris | linkedin | 4 who I am | future | story | announcement | story | 19/12/1 | 2026-10-08; Day 8/30; public goal (31 Dec session); momentum: whisper. 2nd best |
+| chris-09 | chris | linkedin | 2 how to | none | value | icp-callout | listicle | 2/2/0 | 2026-10-09; Day 9/30; 'please stop' habit callout; trailed |
+| chris-10 | chris | linkedin | 4 who I am | current | emotion | stance | transformation | 14/6/1 | 2026-10-10; Day 10/30; belief shift (thought X, now Y) |
+| chris-12 | chris | linkedin | 3 finding | far-past | story | moment | transformation | 13/9/0 | 2026-10-12; Day 12/30; biggest mistake; selfie |
+| chris-13 | chris | linkedin | 3 finding | none | value | insight | listicle | 7/0/0 | 2026-10-13; Day 13/30; breakdown of someone else's business; trailed |
+| chris-14 | chris | linkedin | 4 who I am | current | story | moment | day-x | 13/8/0 | 2026-10-14; Day 14/30; 2-week reflection |
+| chris-17 | chris | linkedin | 1 build | current | value | authority-how | listicle | 4/2/0 | 2026-10-17; Day 17/30; posted ~midnight UK |
+| chris-18 | chris | linkedin | 4 who I am | current | story | vulnerable | life-update | ? | 2026-10-19; Day 18/30; honest update |
+| chris-20 | chris | linkedin | 1 build | current | value | plain | listicle | ? | 2026-10-20; Day 20/30; Claude + CRM at work; Delegate graphic |
+| chris-21 | chris | linkedin | 4 who I am | current | story | moment | day-x | ? | 2026-10-21; Day 21/30; 3-week reflection |
 | jay-046 | jay-yang | linkedin | | current | story | authority-lessons | story | 339/24 | 2026-09-13; mentorship lesson from Hormozi |
 | jay-053 | jay-yang | linkedin | | none | value | icp-callout | listicle | 299/46 | 2026-09-12; hiring/team building |
 | jay-080 | jay-yang | linkedin | | none | value | authority-how | story | 270/36 | 2026-09-05; YouTube team/process transparency |

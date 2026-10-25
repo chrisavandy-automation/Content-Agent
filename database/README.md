@@ -28,7 +28,7 @@ Everything the skills know. Plain text only. Each file below lists what it holds
 | `examples/README.md` | The tag vocabulary and how skills use examples | Column table + usage rules |
 | `examples/hooks.md` | Hook swipe file (75 migrated + my winners) | Columns: date · hook · type · lane · creator · pillar · mix · result · notes |
 | `examples/index.md` | One row per example (100 Jay Yang hooks so far), best results first | Columns: id · creator · platform · pillar · story · lane · hook · structure · result · notes |
-| `examples/<creator>.md` | Posts per creator (`jay-yang.md`) | `## <id>` per post |
+| `examples/<creator>.md` | Posts per creator: `chris.md` (my 17 posted Publish30 posts, full text + results), `jay-yang.md` (100 hooks) | `## <id>` per post |
 
 ## Notion (what I write day to day)
 | Where | Holds | Structure |
