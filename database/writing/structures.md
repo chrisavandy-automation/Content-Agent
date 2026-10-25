@@ -15,6 +15,10 @@ Source: `sources/post-structures-lesson.md` (Jay Yang). Not exhaustive; new form
 | `meme` | Meme | Reach, any pillar | 1-2 lines max. A relatable moment from my audience's day. Timely. Funny, not goofy. |
 | `x-screenshot` | X screenshot | Reach · AI news | Use X to validate (what worked for my ICP there). Short caption, or add a lot of value. |
 
+## Body skeletons (inside any structure above; from the 5Cs)
+- **What / Why / How** (teaching): the point → why they should care → how to do it. ("Drink more water. It helps you think clearly and boosts energy. Drink a glass before every meal.")
+- **But / Therefore** (story): alternate "but" and "therefore" to build tension. Never "and then… and then…".
+
 ## Rules
 - Pick the structure after the hook, from the same tags: the examples index shows which hook + structure pairs have worked.
 - 70/20/10 applies here too: most posts use a structure that's proven for me; now and then try one I haven't (`system/wildcard.md`).

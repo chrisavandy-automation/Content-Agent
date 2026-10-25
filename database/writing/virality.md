@@ -14,7 +14,7 @@ What a skill does instead: label each hook with its lane, name its **weakest lev
 Relevance is in all three: speak to my reader (`foundation/pillars.md`), use their lingo, hijack a trend where it's true.
 
 ## The hook flow (from one angle)
-1. **Angle first.** One sentence: the idea and the reader's promise. If it's unclear, fix the angle before any hooks.
+1. **Angle first.** One sentence: the idea, the reader's promise, and the ONE emotion it's for (OHHHH · FINALLY · WTF · YAY · WOW · LOL · AWW, from `writing/gate.md`). If any is unclear, fix the angle before any hooks.
 2. **15 hooks, 3 lanes × 5:** Value 5 · Emotion 5 · Story 5.
    - Each lane = **4 proven + 1 wildcard** (`system/wildcard.md`). Proven = borrows a named example from `examples/` or one of the hook types in `writing/hooks.md`.
    - At least one `plain` hook across the set (`writing/hooks.md`, my rules).
@@ -25,8 +25,5 @@ Relevance is in all three: speak to my reader (`foundation/pillars.md`), use the
    - Emotion → hot-take, meme, x-screenshot
    - Story → transformation, moment-led story, day-x, life-update
 
-## Before publishing (ask me, don't answer for me)
-- Is there something only I could have written here?
-- What exactly should the reader feel? If "not really", edit.
-- Does it educate, entertain or inspire, and do one of them really well?
-- Would I save, share or comment on this in my own feed?
+## Before publishing
+The pre-publish questions live in `writing/gate.md` (section D), with everything else.

@@ -18,6 +18,7 @@ Everything the skills know. Plain text only. Each file below lists what it holds
 | `writing/hooks.md` | Hook anatomy, the 10 (+plain) hook types, best-practice checklist, my rules, the battle test (4 proven + 1 wildcard) | Tag table + checklists |
 | `writing/virality.md` | The 3 viral formats as lanes (Value · Emotion · Story), the no-scores rule, the 15-hook flow | Lane table + flow steps |
 | `writing/workflow.md` | Brain dump → shape → hooks → body → tighten → my read | 6 steps |
+| `writing/gate.md` | THE pre-publish gate: 5Cs, hook/body/CTA, anti-AI + guardrails (pass/fail), then my calls (emotion, interesting, trust/authority) asked, never scored | Sections A-D + output card |
 | `writing/anti-ai.md` | Pass/fail gate, do's, banned words, style rules (`tools/slop_check.py` automates part of it) | Sections |
 | `writing/structures.md` | The 10 post structures: when and how | Tag table: tag · structure · best for · how to write |
 
@@ -47,6 +48,8 @@ Kept as-is so we can always go back to the original. Distil what matters into a 
 | `sources/post-structures-lesson.md` | Jay Yang lesson: 10 post structures (distilled in `writing/structures.md`) |
 | `sources/ai-assist-and-viral-formats-lesson.md` | Jay Yang: using AI to assist, anti-AI checklist, 3 viral formats |
 | `sources/viral-hook-science-deck.md` | Jay Yang deck notes: the 12 moves for value hooks (private course material) |
+| `sources/5c-writing.md` | The 5Cs of writing + hooks, bodies, CTAs (employer references removed) |
+| `sources/editing-checklist-lesson.md` | Jay Yang: editing checklist, 7 emotions, questions |
 | `sources/arms-agentic-os-v2-guide.pdf` | RoboNuggets ARMS v2 guide: the 12 levels this system is built on (distilled in `system/architecture.md`) |
 | Notion: "Your Superpowers: The Breakdown" (North Star + Superpowers) | Build / Architect + Measure / Teach, the one-liner, the camera point. Distilled into `foundation/pillars.md` (not copied here; read it in Notion) |
 

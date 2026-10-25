@@ -69,7 +69,7 @@ Mix (from LinkedIn, to revisit): about 1 build post per 3-4 other posts, a weekl
 - I'm employed at Systemise and Scale: never use SAS clients, numbers, templates or internal plans. Never vent about clients, even anonymised.
 - **Side business and the £10k goal stay out of public content** until I confirm otherwise (after I've spoken to Gary). Material from it can still be used, anonymised, without saying it's my business.
 
-## 8. The checklist (every skill runs it before handing me a piece)
+## 8. The checklist (pillar questions; the full pre-publish gate is `writing/gate.md`)
 - [ ] Who is this helping?
 - [ ] Which part of the A → Z does it move them along?
 - [ ] Which pillar? (1 build / 2 how to / 3 finding + learning / 4 who I am)
