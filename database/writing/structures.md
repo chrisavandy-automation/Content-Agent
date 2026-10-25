@@ -13,6 +13,7 @@ Source: `sources/post-structures-lesson.md` (Jay Yang). Not exhaustive; new form
 | `day-x` | Day X of doing Y | 4 who I am · future · momentum | An ambitious goal as the Y. Document daily what moved me closer. (e.g. #Publish30) |
 | `icp-callout` | ICP callout | 2 how to | "If I were [who] and wanted [outcome], here's what I'd do:" Call out the ICP in the hook; one specific problem, one tangible fix. |
 | `meme` | Meme | Reach, any pillar | 1-2 lines max. A relatable moment from my audience's day. Timely. Funny, not goofy. |
+| `story` | Moment-led story | 4 who I am · 3 finding · any story type | Open in the moment (scene first), But/Therefore through the middle, end on a human line or an honest question, not a neat lesson. |
 | `x-screenshot` | X screenshot | Reach · AI news | Use X to validate (what worked for my ICP there). Short caption, or add a lot of value. |
 
 ## Body skeletons (inside any structure above; from the 5Cs)

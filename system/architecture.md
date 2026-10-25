@@ -18,7 +18,7 @@ Quick test: ask "where's X?". If Claude opens more than 3 files, the map needs a
 ## Skills
 | Type | What it does | Status |
 |---|---|---|
-| Database skill | Holds knowledge (examples + principles), not just steps. Reads `database/`. Pitches 70/20/10 with wildcards on by default. | Build first |
+| Database skill | Holds knowledge (examples + principles), not just steps. Reads `database/`. Pitches 70/20/10 with wildcards on by default. | Built 25 Oct: `core-story-bank` (haiku), `core-ideate`, `core-hooks`, `core-write`, `core-review` (sonnet) |
 | Artifact skill | Makes posts, graphics, decks in HTML first from one brand book; exports at the end; saves to one inbox with an index | Next |
 | Self-triggered skill | Runs from a dashboard button with `claude -p` | Waits for the dashboard |
 
@@ -27,7 +27,8 @@ Skill rules:
 - Name skills by engine: `core-*` (shared), `linkedin-*`, `youtube-*`.
 - Every content skill starts by reading `database/foundation/pillars.md`.
 - When I like a wildcard, offer to add it to the references (that's how the database grows).
-- Later (ARMS L2/L3): pin fixed-step skills to the smallest model; let feedback sharpen the skill (a principle, not another rule).
+- Model pins (ARMS L2): fixed-step skills pin a small model in their frontmatter (`core-story-bank` haiku, `core-review` sonnet); copy skills stay unpinned. If a pinned skill gets a step wrong, move that step up one model, not the whole skill.
+- Later (ARMS L3): let feedback sharpen the skill (a principle, not another rule).
 
 ## Engines
 `engines/<platform>/` holds only what's specific to that platform (formats, lengths, algorithm notes, its own skills' references). Anything true across platforms (pillars, voice, stories, proof) lives in `database/` so every engine shares it.

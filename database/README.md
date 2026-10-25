@@ -26,15 +26,16 @@ Everything the skills know. Plain text only. Each file below lists what it holds
 | File | Holds | Structure |
 |---|---|---|
 | `examples/README.md` | The tag vocabulary and how skills use examples | Column table + usage rules |
-| `examples/hooks.md` | Hook swipe file | Columns: date · hook · type · creator · pillar · mix · result · source |
-| `examples/index.md` | One row per example, tagged | Columns: id · creator · platform · pillar · story · arr · momentum · hook · structure · result · why |
-| `examples/<creator>.md` | Full posts per creator | `## <id>` per post |
+| `examples/hooks.md` | Hook swipe file (75 migrated + my winners) | Columns: date · hook · type · lane · creator · pillar · mix · result · notes |
+| `examples/index.md` | One row per example (100 Jay Yang hooks so far), best results first | Columns: id · creator · platform · pillar · story · lane · hook · structure · result · notes |
+| `examples/<creator>.md` | Posts per creator (`jay-yang.md`) | `## <id>` per post |
 
 ## Notion (what I write day to day)
 | Where | Holds | Structure |
 |---|---|---|
 | Notion: Content Engine → **Story Bank** (`collection://a4aea437-a40f-4443-990a-7dbb6790e6f7`) | One row per story-worthy moment | Moment · Date · Story type · Pillar · Privacy · Story · Notes · Used · Post link |
-Query it narrowly (e.g. last 7 days, or Used = no + one story type). Never post a row marked Private; Ask first needs my OK.
+| Notion: Content Engine → **Idea Bank** (`collection://2aa9d92a-d274-47d9-9acd-a4838e6d4295`) | Every idea from banked to posted | Angle · Status (Idea/Drafting/Ready/Posted/Parked) · Pillar · Story type · Lane · Emotion · Mix · Borrows from · Platform · Source story (→ Story Bank) · Planned date · Hook · Post link · Result · Notes |
+Query both narrowly (e.g. Story Bank last 7 days, or Used = no + one story type; Idea Bank by Status). Never post a row marked Private; Ask first needs my OK.
 
 Coming next (as I feed them in): voice, proof and numbers.
 
