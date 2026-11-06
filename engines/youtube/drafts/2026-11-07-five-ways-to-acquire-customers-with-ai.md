@@ -18,7 +18,7 @@ Idea Bank (Notion): "10–30 life-changing ways to acquire clients with Claude +
 
 **The five, in recording order:**
 1. AI ad creative at volume (image ads) · Hollowmere
-2. AI video ads, customer-made (UGC) style · a second demo company: an e-commerce product brand [name + product, made tonight]
+2. AI video ads, customer-made (UGC) style · Hollowmere (scripts mined from the reviews)
 3. AI answer visibility (AEO), with search pages as the follow-on · Hollowmere
 4. Quiz or free-resource funnel · Hollowmere
 5. Cold email on buying signals · Hollowmere · **the maybe**: in only if tonight's Treg dry run works. If it doesn't, the video is "4 Ways" and this goes to a later video.
@@ -28,7 +28,7 @@ Parked: Google Search ads (learn it first), personalised video prospecting, YouT
 ### Brain dump (6 Nov)
 - **Ads, starting fresh.** A demo account has no winning ads and no cost per result, so system 1 shows the fresh-start path: "If you've got winning ads, feed them in. If you're starting fresh, this skill finds the winners in your niche first." The teardown of competitors' live ads stands in for my own winners. Stop at picking 10–15; no launch.
 - **"Every claim must trace back to source material"** means the ad copy may only say what's in the reviews, the brief or the teardown. No invented stats, prices or promises. Say it in one line on camera.
-- **Video ads suit e-commerce, not a heat pump installer.** Product showcases with a "customer" holding the product beat founder-led content. So system 2 gets its own made-up product brand. Try Treg's `make-ugc` first; kie.ai (cheaper access to the same video models) is the fallback, called directly with a key. Product-in-hand shots are the hard part: test one clip tonight before promising it.
+- **Video ads: stay with Hollowmere, script from the reviews.** The method doesn't depend on selling a product: `ad-creative` mines the reviews for the phrases homeowners actually use about doubts and results ("I thought it'd be noisy", "the house is warmer than with the boiler"), and writes short scripts from them. A heat pump has no product to hold, so the shot is a person in a warm living room or by the outdoor unit, which is easier than product-in-hand. The presenter is an AI person **talking to** homeowners' doubts in their words, never posing as a customer: a fake testimonial breaks UK ad rules. Render with Treg's `make-ugc` (allowed in the cloud environment 6 Nov); kie.ai is the fallback.
 - **Cold email:** Agent-Reach (X, Reddit, YouTube) is a weak source of hiring intent. Treg's `lead-signals` reads public job posts directly, so it's the one to test.
 - **AEO over SEO pages:** lead with "who does ChatGPT cite?"; the page plan is the follow-on, not the star.
 - **Quiz:** also wanted for my own business later (an AI customer-acquisition quiz for owners who want more customers). Banked as a separate idea, not this video.
@@ -91,7 +91,7 @@ My first working title isn't one of the five: its adjective is on the banned-wor
 Work laptop, so everything runs in Claude Code on the web (claude.ai/code), not the desktop app. Loom records the browser tab.
 - Make a GitHub repo for the demo (e.g. `hollowmere-demo`) and start the session on it. Skills install into its `.claude/skills/`, so every session on that repo has them.
 - Files out (ad images, the review page, the quiz page, video clips): save to Google Drive through the Drive connector, or publish HTML pages as artifacts to show full screen.
-- Network: the cloud environment must allow the hosts each tool calls. Checked 6 Nov from this environment: ScrapeCreators and api.kie.ai reachable; **treg.to blocked** (needs adding to the environment's allowed hosts before systems 2 and 5 can use Treg).
+- Network: the cloud environment must allow the hosts each tool calls. Checked 6 Nov from this environment: ScrapeCreators and api.kie.ai reachable; treg.to allowed (added to the Default environment 6 Nov).
 - The production tools (attentionmachine, Claude Video 2.0) run fine in the cloud too: Node and ffmpeg are installed. Download the finished files from Drive.
 
 ### Before recording (tonight)
@@ -124,12 +124,13 @@ Skills: `ad-library-teardown` (ScrapeCreators), `ad-creative`, `image` (Corey Ha
 - Show: the teardown, INDEX.md, the review page with feed mockups. Pick 10–15 on camera.
 - Say where it stops: it only claims what the source material backs up, and a person picks the ads, checks the claims and presses launch.
 
-**Beat 4. System 2: AI video ads, customer-made style (e-commerce).**
-Demo company: [e-commerce product brand, made tonight]. Skill: `make-ugc` (Treg). Fallback: kie.ai.
-- Explain prompt: `Read the make-ugc skill. Explain the steps, where you'll stop for me, and what it costs before you spend anything.`
-- Run: `Use make-ugc for [brand]'s [product]. Vertical: [category]. Use my voice clip, not a creator's voice, and a character that isn't based on a real person. Make 2 clips, product in hand if the model can.`
-- Show: `hooks.md` (the trending hook pattern), the character pick, one finished clip, `bill.md`.
-- Say where it stops: it's an AI person, so label it as AI and never present it as a real customer.
+**Beat 4. System 2: AI video ads, customer-made style.**
+Skills: `ad-creative` (marketingskills) for the scripts, `make-ugc` (Treg) for the video. Fallback: kie.ai.
+- Run 1: `Use ad-creative. Read inputs/reviews/ and pull the 20 phrases homeowners use most about their doubts and their results. Write 15 UGC-style scripts under 30 words, each opening with a different hook. The speaker talks to homeowners' doubts in their words; they never claim to be a customer.`
+- Pick 2 scripts on camera.
+- Run 2: `Use make-ugc to render those 2 scripts for Hollowmere. Vertical: UK home heating, heat pumps. Use my voice clip, not a creator's voice, and a character that isn't based on a real person. Setting: a warm living room, or beside the outdoor unit. Tell me the cost before you spend anything.`
+- Show: the 20 phrases, the scripts, one finished clip, `bill.md`.
+- Say where it stops: it's an AI person, so label it as AI, and never present it as a customer. Real customers filming on their phones still win on trust.
 
 **Beat 5. System 3: AI answer visibility (AEO).**
 Skills: `ai-seo` (marketingskills); `programmatic-seo` + `seo-programmatic` for the follow-on.

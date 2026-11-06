@@ -1,7 +1,7 @@
 # Demo company: Hollowmere Heat Pumps (made up)
 
-Used by systems 1, 3, 4 and 5 of `drafts/2026-11-07-five-ways-to-acquire-customers-with-ai.md` and `drafts/2026-10-25-hallmark-landing-page-into-ghl.md`.
-**Hollowmere Heat Pumps does not exist. (System 2, video ads, uses a separate made-up e-commerce brand.)** Checked on Companies House 6 Nov 2026: no company called Hollowmere. Say it's made up on camera and put "Demo company" on a lower-third. Before recording, check the domain isn't a live business.
+Used by all five systems of `drafts/2026-11-07-five-ways-to-acquire-customers-with-ai.md` and `drafts/2026-10-25-hallmark-landing-page-into-ghl.md`.
+**Hollowmere Heat Pumps does not exist.** Checked on Companies House 6 Nov 2026: no company called Hollowmere. Say it's made up on camera and put "Demo company" on a lower-third. Before recording, check the domain isn't a live business.
 
 Copy this file into the demo folder as `.agents/product-marketing.md`. Corey Haines' marketing skills read that file first, so every skill gets the same context.
 
