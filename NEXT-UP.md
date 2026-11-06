@@ -17,4 +17,4 @@ Delete items as they're done.
 - [ ] Self-triggered skills: after the dashboard exists.
 - [x] YouTube week built (6 Nov): `youtube-card`, `youtube-hooks`, card template, demo company, Thursday check. 15 repo ideas moved to the Notion Idea Bank.
 - [ ] FIRST REAL RUN of `youtube-card` on the next video; fix whatever breaks. After 2–3 posted videos: build `youtube-publish` (edit → thumbnail → description → Shorts).
-- [ ] Delete the old branches (`cursor/youtube-idea-bank-25db`, `claude/tender-einstein-f07i3g`, `claude/vibrant-faraday-lmfdx9`) once `main` is the default on GitHub: all merged into `main`.
+- [x] Old branches deleted (6 Nov); `main` is the default on GitHub.
