@@ -20,12 +20,11 @@ Recording: <Saturday date>. Idea Bank (Notion): "<Angle>".
 ### Hooks
 From `youtube-hooks`: 5 options (4 proven + 1 wildcard, one `plain`), each = title · thumbnail (2–4 words) · first 15 seconds · callout · promise · borrows · weakest lever + one move. I pick.
 
-### Before recording (Thu–Fri)
+### Friday prep
 1. Folder and demo inputs.
 2. Installs (commands at the bottom of the card) and accounts, with the cost of each.
 3. Dry-run every prompt off camera. Paste what broke into "Dry-run notes".
 4. Graphics from "Production tools" in `engines/youtube/README.md`.
-Status goes to Ready only when the dry run is done.
 
 ### Record from here
 One Loom per beat.

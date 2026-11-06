@@ -11,15 +11,14 @@ Platform-specific only: titles, thumbnails, cards, formats and production tools.
 | Skills | `youtube-card` (idea → card, ready for Saturday) · `youtube-hooks` (title + thumbnail + first 15 s) |
 
 ## The week
-| Day | What happens | Skill | Idea Bank status |
+Mon–Thu is for ideas and the card. Fri–Sun is for producing.
+| Days | What happens | Skill | Idea Bank status |
 |---|---|---|---|
-| Sun | Ideas into the bank (Platform: YouTube) | `core-ideate` | Idea |
-| Mon | Pick Saturday's video. The video test: is there a real build or demo to show? | `youtube-card` step 1 | Drafting |
-| Tue–Wed | Write the card: brain dump → angle → hooks → beats with prompts → guardrails → prep list | `youtube-card` | Drafting |
-| Thu–Fri | Prep: installs, dry-run every prompt, graphics. Card is done **and** dry run done = Ready | the card | Ready |
+| Mon–Thu | Get ideas down (Platform: YouTube). Pick Saturday's video (the video test: is there a real build or demo to show?). Write the card: brain dump → angle → hooks → beats with prompts → guardrails → prep list. Card written = Ready | `core-ideate`, `youtube-card` | Idea → Drafting → Ready |
 | Thu 17:39 | Check: is Saturday's card Ready? Pings me only if not | scheduled task | |
+| Fri | Prep: installs, dry-run every prompt, graphics | the card | Ready |
 | Sat | Record, one Loom per beat | the card | Ready |
-| Sun–Mon | Edit, thumbnail, description, Shorts, post | (a `youtube-publish` skill after 2–3 videos) | Posted |
+| Sun | Edit, thumbnail, description, Shorts, post | (a `youtube-publish` skill after 2–3 videos) | Posted |
 
 ## Format (Superpowers breakdown)
 Build-first formats lead: screen shares, voiceover walkthroughs, written-to-video breakdowns. Grow into talking to camera; don't start there.
