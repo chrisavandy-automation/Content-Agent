@@ -1,7 +1,7 @@
 # Demo company: Hollowmere Heat Pumps (made up)
 
-Used by: `drafts/2026-11-07-five-ways-to-acquire-customers-with-ai.md` and `drafts/2026-10-25-hallmark-landing-page-into-ghl.md`.
-**Hollowmere Heat Pumps does not exist.** Checked on Companies House 6 Nov 2026: no company called Hollowmere. Say it's made up on camera and put "Demo company" on a lower-third. Before recording, check the domain isn't a live business.
+Used by systems 1, 3, 4 and 5 of `drafts/2026-11-07-five-ways-to-acquire-customers-with-ai.md` and `drafts/2026-10-25-hallmark-landing-page-into-ghl.md`.
+**Hollowmere Heat Pumps does not exist. (System 2, video ads, uses a separate made-up e-commerce brand.)** Checked on Companies House 6 Nov 2026: no company called Hollowmere. Say it's made up on camera and put "Demo company" on a lower-third. Before recording, check the domain isn't a live business.
 
 Copy this file into the demo folder as `.agents/product-marketing.md`. Corey Haines' marketing skills read that file first, so every skill gets the same context.
 
@@ -13,6 +13,7 @@ Copy this file into the demo folder as `.agents/product-marketing.md`. Corey Hai
   2. **Landlords and letting agents** (the B2B side): portfolio landlords and property managers looking after several rentals.
 - **The offer on every page and ad:** a free home survey. One call to action: book the survey.
 - **Price and grants:** [install price range] · [current Boiler Upgrade Scheme grant: check gov.uk on the day, don't quote from memory].
+- **Brand:** forest green `#1F4D3A`, warm orange `#E8833A` for buttons, off-white `#F7F5F0` background. Headings in Archivo, body in Source Sans 3. Logo: the word HOLLOWMERE in Archivo with a small orange dot.
 - **Proof:** none real. Any review, number or case study in the demo is invented and must be labelled as invented.
 
 ## Who buys and why (homeowners)
@@ -35,6 +36,6 @@ Plain, local and straight-talking. No green-guilt messaging, no hype words. Says
 - `inputs/reviews/reviews.md`: 50 made-up homeowner reviews, mixed stars, including doubts (noise, cost, radiator size).
 - `inputs/comments/comments.md`: 20 made-up ad comments with objections.
 - `inputs/winning-ads/`: 5 screenshots of Hollowmere "winning ads" (mock them up, or use the first batch the skill makes).
-- `brand/`: two colours, one font, a placeholder logo.
+- `brand/`: the colours, fonts and logo above, as `brand/brand.md`.
 
 Prompt to make them: "Write 50 made-up customer reviews for Hollowmere Heat Pumps (a fictional West Yorkshire installer) from the brief in .agents/product-marketing.md. Mix 3, 4 and 5 stars, include real doubts people have about heat pumps, vary the length, and start the file with a line saying they are invented demo data."

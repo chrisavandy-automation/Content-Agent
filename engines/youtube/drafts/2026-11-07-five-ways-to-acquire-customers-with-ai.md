@@ -1,9 +1,10 @@
-# 5 ways to get new customers with AI, built in Claude Code
+# 5 Ways To Get New Customers with Claude
 
 Card format: `engines/youtube/card-template.md`. Recording: Saturday 7 Nov 2026.
 Idea Bank (Notion): "10–30 life-changing ways to acquire clients with Claude + GHL" (count settled: 5).
 
-**Working title:** 5 ways to get new customers with AI (built live in Claude Code)
+**Title (picked 6 Nov):** 5 Ways To Get New Customers with Claude
+**Series frame:** Category A, bringing in new customers. Every system here finds people who've never heard of the business.
 
 **Angle:** Business owners running ads and marketers hear "use AI to get customers" and get a list of tools. I build five customer systems end to end for one made-up business, from open-source Claude skills, and show where each one stops and needs a person. Emotion: OHHHH.
 
@@ -16,13 +17,21 @@ Idea Bank (Notion): "10–30 life-changing ways to acquire clients with Claude +
 **Demo company:** Hollowmere Heat Pumps, a made-up West Yorkshire installer. Brief: `engines/youtube/demo-company.md`. Same company as the Hallmark landing-page card.
 
 **The five, in recording order:**
-1. AI ad creative at volume (image ads)
-2. AI video ads, customer-made (UGC) style
-3. Cold email on buying signals
-4. Search pages at scale + AI answer visibility (AEO)
-5. Quiz funnel
+1. AI ad creative at volume (image ads) · Hollowmere
+2. AI video ads, customer-made (UGC) style · a second demo company: an e-commerce product brand [name + product, made tonight]
+3. AI answer visibility (AEO), with search pages as the follow-on · Hollowmere
+4. Quiz or free-resource funnel · Hollowmere
+5. Cold email on buying signals · Hollowmere · **the maybe**: in only if tonight's Treg dry run works. If it doesn't, the video is "4 Ways" and this goes to a later video.
 
-Parked for a second video: Google Search ads (learn it first), personalised video prospecting (needs a HeyGen plan).
+Parked: Google Search ads (learn it first), personalised video prospecting, YouTube long-form and Shorts.
+
+### Brain dump (6 Nov)
+- **Ads, starting fresh.** A demo account has no winning ads and no cost per result, so system 1 shows the fresh-start path: "If you've got winning ads, feed them in. If you're starting fresh, this skill finds the winners in your niche first." The teardown of competitors' live ads stands in for my own winners. Stop at picking 10–15; no launch.
+- **"Every claim must trace back to source material"** means the ad copy may only say what's in the reviews, the brief or the teardown. No invented stats, prices or promises. Say it in one line on camera.
+- **Video ads suit e-commerce, not a heat pump installer.** Product showcases with a "customer" holding the product beat founder-led content. So system 2 gets its own made-up product brand. Try Treg's `make-ugc` first; kie.ai (cheaper access to the same video models) is the fallback, called directly with a key. Product-in-hand shots are the hard part: test one clip tonight before promising it.
+- **Cold email:** Agent-Reach (X, Reddit, YouTube) is a weak source of hiring intent. Treg's `lead-signals` reads public job posts directly, so it's the one to test.
+- **AEO over SEO pages:** lead with "who does ChatGPT cite?"; the page plan is the follow-on, not the star.
+- **Quiz:** also wanted for my own business later (an AI customer-acquisition quiz for owners who want more customers). Banked as a separate idea, not this video.
 
 **Guardrails:**
 - Hollowmere is made up: say it in the setup and keep a "Demo company" lower-third on during every segment.
@@ -78,6 +87,13 @@ My first working title isn't one of the five: its adjective is on the banned-wor
 - Breaks from: the listicle shape. This is a story frame (a `moment` with a twist).
 - Weakest lever: no ICP in the title. One move: only pick this if the thumbnail can carry "more customers" too.
 
+### Where it runs (cloud, not the desktop app)
+Work laptop, so everything runs in Claude Code on the web (claude.ai/code), not the desktop app. Loom records the browser tab.
+- Make a GitHub repo for the demo (e.g. `hollowmere-demo`) and start the session on it. Skills install into its `.claude/skills/`, so every session on that repo has them.
+- Files out (ad images, the review page, the quiz page, video clips): save to Google Drive through the Drive connector, or publish HTML pages as artifacts to show full screen.
+- Network: the cloud environment must allow the hosts each tool calls. Checked 6 Nov from this environment: ScrapeCreators and api.kie.ai reachable; **treg.to blocked** (needs adding to the environment's allowed hosts before systems 2 and 5 can use Treg).
+- The production tools (attentionmachine, Claude Video 2.0) run fine in the cloud too: Node and ffmpeg are installed. Download the finished files from Drive.
+
 ### Before recording (tonight)
 1. Make a demo folder, copy `engines/youtube/demo-company.md` into it as `.agents/product-marketing.md`, then make the demo inputs (prompt at the bottom of that file).
 2. Install the skills (commands at the end of this file). Check with `npx skills list`.
@@ -99,42 +115,41 @@ On screen: the demo folder, then one SKILL.md file.
 - Why these five: they bring in people who've never heard of the business.
 - Show `.agents/product-marketing.md`: every skill reads this first, so I only explain the business once.
 
-**Beat 3. System 1: AI ad creative at volume.**
-Skills: `ad-library-teardown` (ScrapeCreators, or Treg's Meta Ad Library endpoint), `ad-creative`, `image` (Corey Haines' marketingskills).
-- Explain prompt: `Read .agents/product-marketing.md and the ad-creative skill. Explain in plain words what we're building, what you need from me, and what you'll refuse to do.`
-- Run 1: `Use ad-library-teardown on [national heat pump brand]'s active Meta ads. Give me their angles, hooks, offers, and what they seem to be testing.`
-- Run 2: `Use ad-creative in scaled static batch mode. Inputs are in inputs/. Make 30 concepts across the static templates, each citing the review or comment it came from. Then build the creative review page.`
-- Show: the teardown, INDEX.md, the review page with feed mockups.
-- Say where it stops: it won't run without real inputs ("AI ads fail on bad inputs, not bad writing"), and a person approves claims and presses launch.
+**Beat 3. System 1: AI ad creative at volume (starting fresh).**
+Skills: `ad-library-teardown` (ScrapeCreators), `ad-creative`, `image` (Corey Haines' marketingskills).
+- Say: if you've got winning ads, export them with their cost per result and feed them in. Hollowmere is new, so we find the winners in the niche first.
+- Run 1: `Use ad-library-teardown on [national heat pump brand]'s active Meta ads, plus [a second brand]. Which ads have run longest, and what are their angles, hooks and offers?`
+- Run 2: `Use ad-creative in scaled static batch mode for Hollowmere. Use the teardown as the reference for what works in this niche, and the reviews and brand in inputs/ and brand/. Make 30 concepts across the static templates. Every claim must come from the reviews or the brief. Then build the creative review page.`
+- Run 3 (optional): `Use image to render the top 5 concepts.`
+- Show: the teardown, INDEX.md, the review page with feed mockups. Pick 10–15 on camera.
+- Say where it stops: it only claims what the source material backs up, and a person picks the ads, checks the claims and presses launch.
 
-**Beat 4. System 2: AI video ads, UGC style.**
-Skill: `make-ugc` (Treg).
-- Explain prompt: `Read the make-ugc skill. Explain the five steps, where you'll stop for me, and what it costs before you spend anything.`
-- Run: `Use make-ugc for Hollowmere's free home survey. Vertical: heat pumps UK, home heating. Use my voice clip voice.mp3, not a creator's voice, and a character that isn't based on a real person. Make 2 clips.`
+**Beat 4. System 2: AI video ads, customer-made style (e-commerce).**
+Demo company: [e-commerce product brand, made tonight]. Skill: `make-ugc` (Treg). Fallback: kie.ai.
+- Explain prompt: `Read the make-ugc skill. Explain the steps, where you'll stop for me, and what it costs before you spend anything.`
+- Run: `Use make-ugc for [brand]'s [product]. Vertical: [category]. Use my voice clip, not a creator's voice, and a character that isn't based on a real person. Make 2 clips, product in hand if the model can.`
 - Show: `hooks.md` (the trending hook pattern), the character pick, one finished clip, `bill.md`.
-- Say where it stops: it's an AI person, so label it as AI and never present it as a real customer. Real customers filming on their phones still beat it for trust.
+- Say where it stops: it's an AI person, so label it as AI and never present it as a real customer.
 
-**Beat 5. System 3: Cold email on buying signals.**
-Skills: `lead-signals` (Treg), `prospecting`, `cold-email` (marketingskills), `email-deliverability-audit` (DNS part only).
-- Explain prompt: `Read lead-signals and cold-email. Explain what a buying signal is for Hollowmere's landlord side and how you'll turn one into an email.`
-- Run 1: `Use lead-signals to find letting agents and property managers in West Yorkshire hiring a property manager or maintenance coordinator in the last 30 days. Qualify them, find the decision maker, and give me a ranked table with the signal and one line on why now. Cap email lookups at 5 cents. Stop at 10 rows.`
-- Run 2: `For the top 3, use cold-email to write a 3-email sequence whose first line comes from their signal.`
-- Show: the ranked table (blurred), what it cost, one sequence. Optionally the DNS check on a domain.
-- Say where it stops: new sending domains need 2–3 weeks to warm up, a person checks a sample of 20 every week, and replies stay human. UK cold email to companies needs an opt-out in every message.
+**Beat 5. System 3: AI answer visibility (AEO).**
+Skills: `ai-seo` (marketingskills); `programmatic-seo` + `seo-programmatic` for the follow-on.
+- Run 1: `Use ai-seo for Hollowmere. Test these questions in ChatGPT, Perplexity and Google AI Overviews: "best heat pump installer in Leeds", "is a heat pump worth it for a 1930s semi", "how much does a heat pump cost in the UK". Who gets cited, why them, and what would Hollowmere need to get cited?`
+- Run 2 (short): `Plan the pages that would answer those questions, and score the plan with seo-programmatic.`
+- Show: the citation table, the "why them" list, the score and its critical fixes.
+- Say where it stops: AI answers cite pages with real facts and real reviews; a made-up company can't fake its way in, and pages take weeks to get picked up.
 
-**Beat 6. System 4: Search pages + AI answer visibility.**
-Skills: `ai-seo`, `programmatic-seo`, `schema` (marketingskills), `seo-programmatic` (claude-seo).
-- Run 1 (the AEO audit, the strongest moment): `Use ai-seo. Test these questions in ChatGPT, Perplexity and Google AI Overviews: "best heat pump installer in Leeds", "is a heat pump worth it for a 1930s semi", "how much does a heat pump cost in the UK". Who gets cited, and why?`
-- Run 2: `Use programmatic-seo to plan "heat pump installer in [town]" pages for the 10 towns in the brief. What data does each page need so it isn't thin?` Then `Score the plan with seo-programmatic.`
-- Run 3: build 3 pages with `schema` JSON-LD.
-- Show: the citation table, the score out of 100 and its critical fixes, 3 pages.
-- Say where it stops: pages without real local data get flagged as thin (let the score show this), and indexing takes weeks.
-
-**Beat 7. System 5: Quiz funnel.**
+**Beat 6. System 4: Quiz funnel.**
 Skills: `scorecard-marketing` (wondelai), `frontend-design` (Anthropic) or Hallmark.
 - Run: `Use scorecard-marketing to design an "Is your home heat-pump ready?" score for Hollowmere: contact form first, 8 questions in 3 categories, low, medium and high results with a different next step for each. Then build it as one HTML page.`
 - Show: the questions and scoring, the finished page, a test run to the results page.
 - Say where it stops: it builds the quiz; connecting the form to the CRM and running ads to it is the next step. Mention the Hallmark video shows putting a page like this into GoHighLevel.
+
+**Beat 7. System 5: Cold email on buying signals (only if tonight's dry run works).**
+Skills: `lead-signals` (Treg), `cold-email` (marketingskills).
+- Run 1: `Use lead-signals to find letting agents and property managers in West Yorkshire hiring a property manager or maintenance coordinator in the last 30 days. Qualify them, find the decision maker, and give me a ranked table with the signal and one line on why now. Cap email lookups at 5 cents. Stop at 10 rows.`
+- Run 2: `For the top 3, use cold-email to write a 3-email sequence whose first line comes from their signal.`
+- Show: the ranked table (blurred), what it cost, one sequence.
+- Say where it stops: new sending domains need 2–3 weeks to warm up, a person checks the list, and replies stay human. UK cold email to companies needs an opt-out in every message.
 
 **Beat 8. Close (30 seconds).**
 On screen: all five outputs, one after another.
