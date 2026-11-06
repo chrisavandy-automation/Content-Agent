@@ -7,7 +7,7 @@ Systems and skills come from my Acquisition Systems Skill Map (6 Nov). This file
 ## Open before recording
 - **Demo company:** the one from the landing-page video plan. That plan is in a Cursor canvas I can't open: [name + one line on what it sells].
 - **Timing:** the Idea Bank card says wait for André M2 (9 Nov) and teach from the brain framework names, not the client catalogue. Don't show the catalogue PDF on screen.
-- **Paid accounts:** system 2 needs Higgsfield credits (or a HeyGen plan); systems 1 and 4 work better with a ScrapeCreators key. Decide tonight.
+- **Paid accounts:** a Treg balance covers system 2 (about $13–20 for 4 UGC clips) and system 3 (signals + emails, per call). Systems 1 and 4 work better with a ScrapeCreators key. Decide tonight.
 
 ## How the recording works
 1. Record each system as its own Loom (easier to redo one). Download the MP4s.
@@ -36,7 +36,7 @@ Every segment has the same shape: **Claude explains the brief → install the sk
 3. **Creative review page**: `ad-creative` also fills an HTML template that shows each concept as an Instagram/Facebook feed mockup. Great B-roll, and it's how a client picks winners.
 4. `image` (marketingskills). Turns the image prompts into images if you have a key for Gemini (Nano Banana), Flux or Ideogram. Without a key you stop at prompts; the Canva route from your own build also works.
 
-**Needs:** ScrapeCreators API key (paid per request) for step 1, or screenshot competitor ads by hand from the Meta Ad Library. An image-model key for step 4.
+**Needs:** ScrapeCreators API key (paid per request) for step 1, or Treg's ad-library endpoints (`treg catalog search "meta ad library"`, per call), or screenshot competitor ads by hand from the Meta Ad Library. An image-model key for step 4.
 **Prep tonight:** fill `inputs/` for the demo company (made-up reviews labelled as made up).
 **Where it stops:** it writes and plans; a person uploads and presses launch. Mortgage, finance and health ads have rules a skill doesn't know.
 
@@ -51,8 +51,16 @@ Every segment has the same shape: **Claude explains the brief → install the sk
 2. `higgsfield-generate` (higgsfield-ai/skills). The official CLI version. Its **Marketing Studio** mode is the one to show: give it a product URL ("click-to-ad"), it imports the product, picks a preset avatar, and makes the ad video. There's also a "virality predictor" score.
 3. `heygen-video` (heygen-com/skills). Presenter-style video from a script with an avatar and voice. Needs a HeyGen API key or the HeyGen MCP on a paid plan.
 
-**Needs:** Higgsfield account with credits (both Higgsfield skills). HeyGen only if you want the presenter version, so skip it like you did for video prospecting.
-**Recommendation:** show `higgsfield-generate` Marketing Studio only. One product, one ad, show the cost screen. Cheapest honest demo.
+4. `make-ugc` (superdesigndev/treg). **The no-subscription route.** Every model call runs through Treg and is paid per call from a prepaid balance. Five steps with three stops where you choose:
+   - Pulls 50–150 trending TikTok/Instagram videos in the niche, transcribes the top 10–15, and writes `hooks.md` (views, first spoken line, when the product is named, the dominant hook pattern).
+   - **Stop 1:** you pick a presenter "vibe" and a voice. Creates the character with `portrait-clone` on two image models; **stop 2:** you pick one.
+   - Drafts 10 hooks of 45–75 words in the winning pattern; **stop 3:** you pick 3–5. Generates Seedance talking-head clips and burns in captions.
+   - Optional demo clip from your own phone recording. Writes `bill.md` with the cost of each step.
+   - Cost: about **$13–20 for 4 clips** at 720p ($0.27/second). New Treg accounts get $1 free.
+   - **Watch-out:** by default it takes the presenter look and **voice** from a real creator's trending video. On a public video, don't. Use your own voice clip or a licensed voice, and a character that isn't modelled on a real person.
+
+**Needs:** Higgsfield credits (skills 1–2), a HeyGen plan (skill 3) or a Treg balance (skill 4).
+**Recommendation:** use `make-ugc` through Treg. No subscription, it shows the bill, and the three stops make good on-screen moments. Fall back to `higgsfield-generate` Marketing Studio if Treg's video route is down.
 **Where it stops:** an AI "customer" isn't a real customer. Label it, and never pass it off as a testimonial.
 
 ---
@@ -62,13 +70,23 @@ Every segment has the same shape: **Claude explains the brief → install the sk
 **What the viewer sees:** a signal (a company hiring for the job you replace) turns into a scored lead and a first line written from that signal.
 
 **The skills**
-1. **Agent-Reach** (your star; not in the skill map). The free signal source: public LinkedIn job posts, Reddit and X posts asking for help, GitHub activity. `agent-reach linkedin` job search needs no login.
+1. `lead-signals` (superdesigndev/treg). **The main signal engine.** Runs in four steps:
+   - **Detect:** searches the Treg catalog by job, not vendor: LinkedIn/X/Reddit posts and complaints, post commenters, low-star Google reviews, hiring, job changes, funding, tech adoption, headcount, news, live ads.
+   - **Qualify:** drops the noise (it expects to bin over half: vendors, recruiters, "great post" comments, stale signals).
+   - **Contact:** company → decision maker → work email via `treg.people.email.find`, capped at $0.05 a lookup.
+   - **Hand back:** a ranked list with person, company, the signal, "why now" in one line, the source link and the email, plus plain coverage ("1,180 engaged, 800 emails found").
+   - Scoring: fit first, then freshness, then strength (two signals on one account beat one).
+   - Can repeat on a schedule with a `signals.csv` that reports only new rows each run.
+   - Paid per call ($1 free for new accounts); it reports what each run cost. It also reminds you that UK/EU outreach needs a lawful basis and suppression lists first.
+   - This is the Idea Bank card "I asked Claude (with Treg) to find GHL agency clients already spending on Meta ads": that card can be this segment.
+   - **Agent-Reach** (your star) is the free fallback: public LinkedIn job posts, Reddit and X, no login for LinkedIn jobs, but no email finding.
 2. `prospecting` (marketingskills). Pick the branch (SaaS / B2B / local) → define the ICP → build the list → qualify each one → score and rank → output a lead sheet (chat table, or CSV over 25 rows). Defaults to free sources + browser if you have no Apollo or Clay. It refuses bulk LinkedIn or Google Maps scraping, which is worth saying on camera.
 3. `playbook-hiring-surge` (coldoutboundskills). Writes the one clause that completes "Noticed …" from department hiring counts. **Built on Clay's free headcount action, so it needs a Clay account.** Without Clay, show its rules and let Claude write the line from the Agent-Reach job post instead.
 4. `cold-email` (marketingskills). Writes the email and the follow-ups: peer tone, the personalisation must connect to the problem, one low-friction ask, a quality check before send.
 5. `email-deliverability-audit` (coldoutboundskills). Checks SPF/DKIM/DMARC by DNS, then inbox health, bounces and spam placement **from Smartlead**. Only the DNS part works without a running Smartlead account.
 
-**Needs:** nothing paid for the demo (Agent-Reach + Claude). Clay or Smartlead only for steps 3 and 5 in full.
+**Needs:** a Treg balance (a few dollars for a demo run), or nothing paid with Agent-Reach. Clay or Smartlead only for steps 3 and 5 in full.
+**Run order on camera:** `lead-signals` → `prospecting` scoring rules as the check → `cold-email` writes the sequence from each row's "why now" → DNS part of `email-deliverability-audit`.
 **Where it stops:** new sending domains need 2–3 weeks to warm up. Show the list, the lines and the sequence; don't fake sends. Real numbers: `chris-vandy-brain/playbooks/signal-based-cold-outreach.md` (~$200–400/mo running).
 
 ---
@@ -136,5 +154,13 @@ npx skills add AgriciDaniel/claude-seo --skill seo-programmatic -a claude-code
 npx skills add wondelai/skills --skill scorecard-marketing -a claude-code
 npx skills add anthropics/skills --skill frontend-design -a claude-code
 ```
+Treg (systems 2 and 3), in Claude Code:
+```
+/plugin marketplace add superdesigndev/treg
+/plugin install treg@treg
+/plugin install lead-signals@treg
+```
+`make-ugc` needs the `treg` CLI too (`curl -fsSL https://treg.to/install.sh | sh`, then `treg login`, then `treg balance`).
+The other chat's Skill Build Guides page (https://claude.ai/artifact/5j11oaMXyv6CCosfqGsD78) has a build prompt and stop rules per system; use it alongside this file.
 Agent-Reach: tell Claude Code "Install Agent Reach: https://raw.githubusercontent.com/Panniantong/Agent-Reach/main/docs/install.md".
 If the CLI won't take several `--skill` flags in one command, run one command per skill (`--skill <name>` each time). Check each one installed with `npx skills list`, and read its SKILL.md once before recording.
