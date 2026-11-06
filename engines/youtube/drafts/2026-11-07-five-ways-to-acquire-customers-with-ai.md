@@ -89,7 +89,7 @@ My first working title isn't one of the five: its adjective is on the banned-wor
 
 ### Where it runs (cloud, not the desktop app)
 Work laptop, so everything runs in Claude Code on the web (claude.ai/code), not the desktop app. Loom records the browser tab.
-- Make a GitHub repo for the demo (e.g. `hollowmere-demo`) and start the session on it. Skills install into its `.claude/skills/`, so every session on that repo has them.
+- Demo repo: `chrisavandy-automation/hollowmere-demo` (made 6 Nov: context file, brand, 50 invented reviews, 20 invented comments, all 14 skills installed). Start the session on it.
 - Files out (ad images, the review page, the quiz page, video clips): save to Google Drive through the Drive connector, or publish HTML pages as artifacts to show full screen.
 - Network: the cloud environment must allow the hosts each tool calls. Checked 6 Nov from this environment: ScrapeCreators and api.kie.ai reachable; treg.to allowed (added to the Default environment 6 Nov).
 - The production tools (attentionmachine, Claude Video 2.0) run fine in the cloud too: Node and ffmpeg are installed. Download the finished files from Drive.
