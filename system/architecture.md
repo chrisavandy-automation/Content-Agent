@@ -18,7 +18,7 @@ Quick test: ask "where's X?". If Claude opens more than 3 files, the map needs a
 ## Skills
 | Type | What it does | Status |
 |---|---|---|
-| Database skill | Holds knowledge (examples + principles), not just steps. Reads `database/`. Pitches 70/20/10 with wildcards on by default. | Built 25 Oct: `core-story-bank` (haiku), `core-ideate`, `linkedin-hooks`, `linkedin-write`, `linkedin-review` (sonnet) |
+| Database skill | Holds knowledge (examples + principles), not just steps. Reads `database/`. Pitches 70/20/10 with wildcards on by default. | Built 25 Oct: `core-story-bank` (haiku), `core-ideate`, `linkedin-hooks`, `linkedin-write`, `linkedin-review` (sonnet). 6 Nov: `youtube-card`, `youtube-hooks` |
 | Artifact skill | Makes posts, graphics, decks in HTML first from one brand book; exports at the end; saves to one inbox with an index | Next |
 | Self-triggered skill | Runs from a dashboard button with `claude -p` | Waits for the dashboard |
 
@@ -34,4 +34,5 @@ Skill rules:
 `engines/<platform>/` holds only what's specific to that platform (formats, lengths, algorithm notes, its own skills' references). Anything true across platforms (pillars, voice, stories, proof) lives in `database/` so every engine shares it.
 
 ## Routines and Apps
-Not yet. Routines get added as active or passive; apps once a job is routine enough to leave the chat.
+- Routine (passive), 6 Nov: Thursday 17:39 UK, "YouTube Saturday check". Reads the Notion Idea Bank; pings me only if no YouTube row planned for Saturday is Ready. One Notion query a run.
+- Apps: once a job is routine enough to leave the chat.

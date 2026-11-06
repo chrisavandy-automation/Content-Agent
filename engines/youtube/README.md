@@ -1,7 +1,28 @@
 # YouTube engine
-Platform-specific only: titles, thumbnails, scripts, video formats and YouTube skill references. Pillars, voice and stories come from `database/`.
-Status: not built yet. An early YouTube agent (with a 15-idea bank) is staged in the Superpower-Newsletter repo, `youtube-agent/` folder; review it before building this.
+Platform-specific only: titles, thumbnails, cards, formats and production tools. Pillars, voice, stories and hook rules come from `database/`.
 
-Format rule (Superpowers breakdown): build-first formats lead, i.e. screen shares, voiceover walkthroughs, written-to-video breakdowns. Grow into talking to camera; don't start there.
+## Where things live
+| Need | Go to |
+|---|---|
+| The idea bank (the only one) | Notion Idea Bank, `collection://2aa9d92a-d274-47d9-9acd-a4838e6d4295`, filter Platform = YouTube |
+| The card template | `engines/youtube/card-template.md` |
+| Cards (one per video) | `engines/youtube/drafts/YYYY-MM-DD-slug.md` (the recording Saturday) |
+| The demo company | `engines/youtube/demo-company.md` (Hollowmere Heat Pumps, made up) |
+| Skills | `youtube-card` (idea → card, ready for Saturday) · `youtube-hooks` (title + thumbnail + first 15 s) |
+
+## The week
+| Day | What happens | Skill | Idea Bank status |
+|---|---|---|---|
+| Sun | Ideas into the bank (Platform: YouTube) | `core-ideate` | Idea |
+| Mon | Pick Saturday's video. The video test: is there a real build or demo to show? | `youtube-card` step 1 | Drafting |
+| Tue–Wed | Write the card: brain dump → angle → hooks → beats with prompts → guardrails → prep list | `youtube-card` | Drafting |
+| Thu–Fri | Prep: installs, dry-run every prompt, graphics. Card is done **and** dry run done = Ready | the card | Ready |
+| Thu 17:39 | Check: is Saturday's card Ready? Pings me only if not | scheduled task | |
+| Sat | Record, one Loom per beat | the card | Ready |
+| Sun–Mon | Edit, thumbnail, description, Shorts, post | (a `youtube-publish` skill after 2–3 videos) | Posted |
+
+## Format (Superpowers breakdown)
+Build-first formats lead: screen shares, voiceover walkthroughs, written-to-video breakdowns. Grow into talking to camera; don't start there.
+- Hooks = title + thumbnail text + first 15 seconds. Thumbnails: 1280×720, 2–4 words, big type.
 - Production tools (starred repos, all run locally: Node, ffmpeg, Chrome) make the video, never the system being demoed: attentionmachine-skills (edit my talking + Shorts cuts) · Claude Video 2.0 on HyperFrames (intro, section cards, lower-thirds) · explainroo (narrated "how it works" explainers, chapters, subtitles) · Argo (scripted browser walkthroughs with voiceover) · video-director (QA every render) · Take One (optional cold open; slow and token-heavy).
-- Hooks = title + thumbnail text + first 15 seconds: a `youtube-hooks` skill (to build; same lanes and database as `linkedin-hooks`). Drafts: `engines/youtube/drafts/`.
+- Research for titles: `outlier-post-finder` (ScrapeCreators) on the creators the idea borrows from.

@@ -1,6 +1,6 @@
-# YT-002 · 5 ways to get new customers with AI, built in Claude Code
+# 5 ways to get new customers with AI, built in Claude Code
 
-Card format copied from YT-001 (`engines/youtube/ideas.md` on branch `cursor/youtube-idea-bank-25db`). Recording: Saturday 7 Nov 2026.
+Card format: `engines/youtube/card-template.md`. Recording: Saturday 7 Nov 2026.
 Idea Bank (Notion): "10–30 life-changing ways to acquire clients with Claude + GHL" (count settled: 5).
 
 **Working title:** 5 ways to get new customers with AI (built live in Claude Code)
@@ -13,7 +13,7 @@ Idea Bank (Notion): "10–30 life-changing ways to acquire clients with Claude +
 
 **Format:** Build-first screen share, about 25 minutes. Cold open, a 90-second setup, five segments of about 4 minutes, a close.
 
-**Demo company:** Hollowmere Heat Pumps, a made-up West Yorkshire installer. Brief: `engines/youtube/demo-company.md`. Same company as YT-001.
+**Demo company:** Hollowmere Heat Pumps, a made-up West Yorkshire installer. Brief: `engines/youtube/demo-company.md`. Same company as the Hallmark landing-page card.
 
 **The five, in recording order:**
 1. AI ad creative at volume (image ads)
@@ -134,7 +134,7 @@ Skills: `ai-seo`, `programmatic-seo`, `schema` (marketingskills), `seo-programma
 Skills: `scorecard-marketing` (wondelai), `frontend-design` (Anthropic) or Hallmark.
 - Run: `Use scorecard-marketing to design an "Is your home heat-pump ready?" score for Hollowmere: contact form first, 8 questions in 3 categories, low, medium and high results with a different next step for each. Then build it as one HTML page.`
 - Show: the questions and scoring, the finished page, a test run to the results page.
-- Say where it stops: it builds the quiz; connecting the form to the CRM and running ads to it is the next step. Mention YT-001 shows putting a page like this into GoHighLevel.
+- Say where it stops: it builds the quiz; connecting the form to the CRM and running ads to it is the next step. Mention the Hallmark video shows putting a page like this into GoHighLevel.
 
 **Beat 8. Close (30 seconds).**
 On screen: all five outputs, one after another.

@@ -17,8 +17,8 @@ This file is a map, not a rulebook. Open only the files the job needs.
 | How the system is built (skill types, wildcards, memory layers) | `system/architecture.md` |
 | What a wildcard is | `system/wildcard.md` |
 | LinkedIn engine | `engines/linkedin/README.md` |
-| YouTube engine | `engines/youtube/README.md` |
-| Skills (one per job) | `.claude/skills/`: `core-story-bank` (log a moment) · `core-ideate` (10 ideas, Sunday) · `linkedin-hooks` (15 hooks, 3 lanes) · `linkedin-write` (idea → gated draft) · `linkedin-review` (the gate) |
+| YouTube engine (the week, card template, demo company) | `engines/youtube/README.md` |
+| Skills (one per job) | `.claude/skills/`: `core-story-bank` (log a moment) · `core-ideate` (10 ideas, Sunday) · `linkedin-hooks` (15 hooks, 3 lanes) · `linkedin-write` (idea → gated draft) · `linkedin-review` (the gate) · `youtube-card` (idea → Saturday-ready card) · `youtube-hooks` (title + thumbnail + first 15 s) |
 | Drafts | `engines/<platform>/drafts/YYYY-MM-DD-slug.md` |
 | Story Bank, Idea Bank | Notion → Content Engine (ids in `database/README.md`) |
 | What I've taught you (one line each) | `MEMORY.md` |

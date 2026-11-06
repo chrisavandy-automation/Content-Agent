@@ -14,3 +14,6 @@ Delete items as they're done.
 - [ ] Voice file in `database/foundation/` (start from LinkedIn-Agent `shared/voice-profile.md`).
 - [ ] Artifact skill: brand book in HTML, one inbox for everything made.
 - [ ] Self-triggered skills: after the dashboard exists.
+- [x] YouTube week built (6 Nov): `youtube-card`, `youtube-hooks`, card template, demo company, Thursday check. 15 repo ideas moved to the Notion Idea Bank.
+- [ ] FIRST REAL RUN of `youtube-card` on the next video; fix whatever breaks. After 2–3 posted videos: build `youtube-publish` (edit → thumbnail → description → Shorts).
+- [ ] Delete branch `cursor/youtube-idea-bank-25db` once you're happy: its ideas are in Notion and its card is in `engines/youtube/drafts/`.
