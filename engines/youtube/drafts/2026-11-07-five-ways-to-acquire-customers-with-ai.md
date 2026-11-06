@@ -1,21 +1,163 @@
-# 5 game-changing ways to acquire new customers with AI (YouTube long-form)
+# YT-002 · 5 ways to get new customers with AI, built in Claude Code
 
-Status: research done, script not written. Pillar 2 (How to do it). Stage: Acquire.
-Idea Bank card: "10–30 life-changing ways to acquire clients with Claude + GHL".
-Systems and skills come from my Acquisition Systems Skill Map (6 Nov). This file says what each skill actually does when it runs, from reading every SKILL.md on 6 Nov 2026.
+Card format copied from YT-001 (`engines/youtube/ideas.md` on branch `cursor/youtube-idea-bank-25db`). Recording: Saturday 7 Nov 2026.
+Idea Bank (Notion): "10–30 life-changing ways to acquire clients with Claude + GHL" (count settled: 5).
 
-## Open before recording
-- **Demo company:** the one from the landing-page video plan. That plan is in a Cursor canvas I can't open: [name + one line on what it sells].
-- **Timing:** the Idea Bank card says wait for André M2 (9 Nov) and teach from the brain framework names, not the client catalogue. Don't show the catalogue PDF on screen.
-- **Paid accounts:** a Treg balance covers system 2 (about $13–20 for 4 UGC clips) and system 3 (signals + emails, per call). Systems 1 and 4 work better with a ScrapeCreators key. Decide tonight.
+**Working title:** 5 ways to get new customers with AI (built live in Claude Code)
+
+**Angle:** Business owners running ads and marketers hear "use AI to get customers" and get a list of tools. I build five customer systems end to end for one made-up business, from open-source Claude skills, and show where each one stops and needs a person. Emotion: OHHHH.
+
+**Pillar:** 2 How to. Each system is a how-to the viewer can copy; the builds are the proof. Filter: yes, Claude Code throughout.
+
+**Story type:** `hypothetical` (the made-up company). **ARR:** Authority. **Lane:** Value. **Mix:** Adjacent (a listicle like Nick Saraev's and GrokBot's, but built on screen, not walked through Twitter posts). **Stage:** Acquire. **Momentum:** tease while recording, shout when it's up.
+
+**Format:** Build-first screen share, about 25 minutes. Cold open, a 90-second setup, five segments of about 4 minutes, a close.
+
+**Demo company:** Hollowmere Heat Pumps, a made-up West Yorkshire installer. Brief: `engines/youtube/demo-company.md`. Same company as YT-001.
+
+**The five, in recording order:**
+1. AI ad creative at volume (image ads)
+2. AI video ads, customer-made (UGC) style
+3. Cold email on buying signals
+4. Search pages at scale + AI answer visibility (AEO)
+5. Quiz funnel
+
+Parked for a second video: Google Search ads (learn it first), personalised video prospecting (needs a HeyGen plan).
+
+**Guardrails:**
+- Hollowmere is made up: say it in the setup and keep a "Demo company" lower-third on during every segment.
+- Every review, comment and number fed in is invented and labelled. No result numbers about Hollowmere or my own work.
+- Real companies found in system 3 (signals): blur names and emails, send nothing.
+- Don't show the client catalogue PDF or the top of the Skill Build Guides page (it names the client catalogue). Teach from the system names, not the client document.
+- Blur API keys, Treg tokens and the GHL location id.
+- Credit the skill authors in the segment and in the description.
+- The Notion card said to wait for André M2 (9 Nov). Recording on the 7th is fine; **post after the 9th**.
+
+### Hooks
+5 options. Lane: Value. 4 proven + 1 wildcard, one `plain`. YouTube hook = title + thumbnail + first 15 seconds. The first-15 lines are in the future tense so they're true before the build exists. I pick. No score.
+
+My first working title isn't one of the five: its adjective is on the banned-word list in `database/writing/anti-ai.md`.
+
+**1. Proven · `plain`**
+- Title: 5 ways to get new customers with AI (built live in Claude Code)
+- Thumbnail: 5 SYSTEMS, BUILT LIVE
+- First 15 seconds: I'm going to build five systems that bring a business new customers. All in Claude Code, all on this screen, for one made-up heat pump company. And I'll show you where each one stops and needs a person.
+- Callout: anyone who wants more customers and uses Claude. Promise: five systems, built, plus the limits.
+- Borrows: `plain` in `database/writing/hooks.md`.
+- Weakest lever: "a business" is a soft callout. One move: open with "If you run ads…" if the first take feels flat.
+
+**2. Proven · `icp-callout`**
+- Title: If you run ads and do your own marketing, build these 5 AI systems
+- Thumbnail: RUN ADS? BUILD THESE
+- First 15 seconds: If you run Meta ads and do your own marketing, these are the five AI systems I'd build to get new customers. I'll build every one for a made-up heat pump installer so you can copy them step by step.
+- Callout: business owners running ads, my exact ICP. Promise: five systems to copy.
+- Borrows: `icp-callout`.
+- Weakest lever: "I'd build" is advice, not proof. One move: keep it, because beat 3 onward is the proof on screen.
+
+**3. Proven · `authority-how`**
+- Title: How to build 5 AI customer systems with Claude Code (step by step)
+- Thumbnail: 5 SYSTEMS · STEP BY STEP
+- First 15 seconds: AI ads at volume. AI video ads. Cold email on buying signals. Search pages that show up in ChatGPT. And a quiz funnel. Five systems, each built from free skills, step by step on this screen.
+- Callout: people who want the how. Promise: five builds, in order.
+- Borrows: `authority-how` (the how, no forced number). Shape of my 2 Oct hook.
+- Weakest lever: the list in the first 15 seconds is long. One move: cut it to "ads, video ads, cold email, search and a quiz" if it runs over.
+
+**4. Proven · `insight`**
+- Title: I went through 35 ways to get customers with AI. I'd build these 5.
+- Thumbnail: 35 → 5
+- First 15 seconds: I mapped 35 ways a business can get customers with AI and matched each one to the skills that build it. These are the five I'd build first, and I'm building all five right now for a made-up heat pump company.
+- Callout: anyone overwhelmed by AI marketing tools. Promise: the five that made the cut, built.
+- Borrows: `insight` ("After analysing N things, I found…"). The 35 is the real count from my skill map.
+- Weakest lever: "I'd build" with no reason why these five. One move: say the reason in one line at the start of beat 2 (they bring in people who've never heard of the business).
+
+**5. Wildcard**
+- Title: I built the marketing for a company that doesn't exist
+- Thumbnail: FAKE COMPANY · REAL SYSTEMS
+- First 15 seconds: Hollowmere Heat Pumps doesn't exist. I made it up last night. Today I'm building it five ways to get new customers with Claude Code, and every one of them works for a real business.
+- Callout: weak in the title; carried by the first 15 seconds and the thumbnail. Promise: five working systems, and the curiosity of the fake company.
+- Breaks from: the listicle shape. This is a story frame (a `moment` with a twist).
+- Weakest lever: no ICP in the title. One move: only pick this if the thumbnail can carry "more customers" too.
+
+### Before recording (tonight)
+1. Make a demo folder, copy `engines/youtube/demo-company.md` into it as `.agents/product-marketing.md`, then make the demo inputs (prompt at the bottom of that file).
+2. Install the skills (commands at the end of this file). Check with `npx skills list`.
+3. Treg: sign in, add a few dollars, run `treg balance`.
+4. Dry-run each build prompt once off camera. Paste anything that broke into "Dry-run notes" at the end.
+5. Graphics from "Production tools" in `engines/youtube/README.md`: intro, five title cards, lower-thirds, end card.
+
+### Record from here
+Record each beat as its own Loom. Every system segment has the same five moves: **title card → Claude explains the brief → install → run → where it stops.**
+
+**Beat 1. Cold open (15 seconds).**
+On screen: Claude Code, the demo folder open, five title cards ready.
+Say the first 15 seconds of the hook I picked. Go straight into beat 2.
+
+**Beat 2. Setup (90 seconds).**
+On screen: the demo folder, then one SKILL.md file.
+- Hollowmere Heat Pumps is made up. Lower-third on.
+- What a skill is: a folder with one instructions file that teaches Claude one job. Scroll one SKILL.md for five seconds.
+- Why these five: they bring in people who've never heard of the business.
+- Show `.agents/product-marketing.md`: every skill reads this first, so I only explain the business once.
+
+**Beat 3. System 1: AI ad creative at volume.**
+Skills: `ad-library-teardown` (ScrapeCreators, or Treg's Meta Ad Library endpoint), `ad-creative`, `image` (Corey Haines' marketingskills).
+- Explain prompt: `Read .agents/product-marketing.md and the ad-creative skill. Explain in plain words what we're building, what you need from me, and what you'll refuse to do.`
+- Run 1: `Use ad-library-teardown on [national heat pump brand]'s active Meta ads. Give me their angles, hooks, offers, and what they seem to be testing.`
+- Run 2: `Use ad-creative in scaled static batch mode. Inputs are in inputs/. Make 30 concepts across the static templates, each citing the review or comment it came from. Then build the creative review page.`
+- Show: the teardown, INDEX.md, the review page with feed mockups.
+- Say where it stops: it won't run without real inputs ("AI ads fail on bad inputs, not bad writing"), and a person approves claims and presses launch.
+
+**Beat 4. System 2: AI video ads, UGC style.**
+Skill: `make-ugc` (Treg).
+- Explain prompt: `Read the make-ugc skill. Explain the five steps, where you'll stop for me, and what it costs before you spend anything.`
+- Run: `Use make-ugc for Hollowmere's free home survey. Vertical: heat pumps UK, home heating. Use my voice clip voice.mp3, not a creator's voice, and a character that isn't based on a real person. Make 2 clips.`
+- Show: `hooks.md` (the trending hook pattern), the character pick, one finished clip, `bill.md`.
+- Say where it stops: it's an AI person, so label it as AI and never present it as a real customer. Real customers filming on their phones still beat it for trust.
+
+**Beat 5. System 3: Cold email on buying signals.**
+Skills: `lead-signals` (Treg), `prospecting`, `cold-email` (marketingskills), `email-deliverability-audit` (DNS part only).
+- Explain prompt: `Read lead-signals and cold-email. Explain what a buying signal is for Hollowmere's landlord side and how you'll turn one into an email.`
+- Run 1: `Use lead-signals to find letting agents and property managers in West Yorkshire hiring a property manager or maintenance coordinator in the last 30 days. Qualify them, find the decision maker, and give me a ranked table with the signal and one line on why now. Cap email lookups at 5 cents. Stop at 10 rows.`
+- Run 2: `For the top 3, use cold-email to write a 3-email sequence whose first line comes from their signal.`
+- Show: the ranked table (blurred), what it cost, one sequence. Optionally the DNS check on a domain.
+- Say where it stops: new sending domains need 2–3 weeks to warm up, a person checks a sample of 20 every week, and replies stay human. UK cold email to companies needs an opt-out in every message.
+
+**Beat 6. System 4: Search pages + AI answer visibility.**
+Skills: `ai-seo`, `programmatic-seo`, `schema` (marketingskills), `seo-programmatic` (claude-seo).
+- Run 1 (the AEO audit, the strongest moment): `Use ai-seo. Test these questions in ChatGPT, Perplexity and Google AI Overviews: "best heat pump installer in Leeds", "is a heat pump worth it for a 1930s semi", "how much does a heat pump cost in the UK". Who gets cited, and why?`
+- Run 2: `Use programmatic-seo to plan "heat pump installer in [town]" pages for the 10 towns in the brief. What data does each page need so it isn't thin?` Then `Score the plan with seo-programmatic.`
+- Run 3: build 3 pages with `schema` JSON-LD.
+- Show: the citation table, the score out of 100 and its critical fixes, 3 pages.
+- Say where it stops: pages without real local data get flagged as thin (let the score show this), and indexing takes weeks.
+
+**Beat 7. System 5: Quiz funnel.**
+Skills: `scorecard-marketing` (wondelai), `frontend-design` (Anthropic) or Hallmark.
+- Run: `Use scorecard-marketing to design an "Is your home heat-pump ready?" score for Hollowmere: contact form first, 8 questions in 3 categories, low, medium and high results with a different next step for each. Then build it as one HTML page.`
+- Show: the questions and scoring, the finished page, a test run to the results page.
+- Say where it stops: it builds the quiz; connecting the form to the CRM and running ads to it is the next step. Mention YT-001 shows putting a page like this into GoHighLevel.
+
+**Beat 8. Close (30 seconds).**
+On screen: all five outputs, one after another.
+Say: every skill is linked in the description. One ask: which of the five should get its own full build video? Stop. No pitch.
+
+### Description (paste when the video is up)
+- "Hollowmere Heat Pumps is a made-up company for this demo."
+- Skills: coreyhaines31/marketingskills · ScrapeCreators/social-media-research-skills · superdesigndev/treg · AgriciDaniel/claude-seo · wondelai/skills · anthropics/skills · growthenginenowoslawski/coldoutboundskills
+- Chapters: [paste from the edit]
+
+### Dry-run notes
+- [what broke, the command that actually worked, what each run cost]
+
+---
+
+# Skill notes: what each skill does when it runs
+Systems and skills come from my Acquisition Systems Skill Map (6 Nov). Notes below are from reading every SKILL.md on 6 Nov 2026.
 
 ## How the recording works
-1. Record each system as its own Loom (easier to redo one). Download the MP4s.
+1. Record each beat as its own Loom (easier to redo one). Download the MP4s.
 2. Flub a line? Pause, then say it again from the start of the sentence. attentionmachine keeps the best take and drops the rest.
 3. Hand the files to attentionmachine for the clean-up and captions, then do your own pass: cut anything that doesn't move the build forward.
 4. Graphics, explainers and QA: see "Production tools" in `engines/youtube/README.md`.
-
-Every segment has the same shape: **Claude explains the brief → install the skills → run → show the output → where it stops.**
 
 ---
 
