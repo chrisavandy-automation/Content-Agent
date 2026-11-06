@@ -29,7 +29,7 @@ Copy this file into the demo folder as `.agents/product-marketing.md`. Corey Hai
 Big national energy brands that sell heat pumps, plus local installers. Use their **public** ads from the Meta Ad Library. Show their ads only to analyse them; never copy wording into Hollowmere's ads.
 
 ## Voice
-Plain, local and straight-talking. No green-guilt messaging, no "revolutionise your home". Says what it costs and what's awkward (the outdoor unit, the bigger radiators).
+Plain, local and straight-talking. No green-guilt messaging, no hype words. Says what it costs and what's awkward (the outdoor unit, the bigger radiators).
 
 ## Demo inputs to make tonight (all labelled "demo, invented")
 - `inputs/reviews/reviews.md`: 50 made-up homeowner reviews, mixed stars, including doubts (noise, cost, radiator size).
