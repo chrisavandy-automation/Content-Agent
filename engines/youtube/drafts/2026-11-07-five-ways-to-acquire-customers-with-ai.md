@@ -205,6 +205,19 @@ Dry run 7 Nov, evening, in Claude Code on the web. Outputs in `hollowmere-demo/o
   - Decision made (flag if you disagree): the brand brief says one CTA (book the survey), the scorecard method says a CTA per tier. The survey stays on every tier; only the Low tier leads with a free checklist.
   - Quick diagnostic 9/10: tier follow-up emails are written, not built. Connecting to GHL is "the next video".
 
+**System 5, cold email on signals: worked end to end, with thin contact coverage.** ~10 min of machine time (20:10–20:17, after a worker restart; it had started at 19:14). **Cost: $0.0083** (cap was $0.60).
+- Run 1 (lead-signals): 3 LinkedIn job searches via Treg (`anyapi.linkedin.search.jobs`, West Yorkshire, last 30 days, $0.00066 each) → 26 unique postings → **5 kept** (21 dropped: recruiters, facilities firms, corporates). Ranked table with signal, why now and source: `outputs/cold-email/signals.md`.
+  - Best row: a Leeds lettings agent hiring a Lettings Manager and a Property Relationship Manager in the same week (two signals, 2–4 days old).
+  - Contact step is the weak part: decision maker found for **1 of 5**, one email found (unverified, $0.0048, cap $0.05 respected). The two providers disagreed on the person's title.
+  - Broke: BlitzAPI (the decision-maker cascade) was out of capacity on Treg's key (503, unbilled). Treg's routed `treg.people.search` worked **only with a company domain**; free-text company names returned unrelated people. On camera: give it the domain.
+  - Real companies: **blur every name and email.** Names and emails are masked in the repo file. Nothing sent.
+- Run 2 (cold-email): 3-email sequences for the top 3, first line from the signal, opt-out and address in every email, no invented proof (Hollowmere has none). `outputs/cold-email/sequences.md`.
+- The "where it stops" line writes itself: the data costs pennies, but finding the right person is patchy, a person must check the title and the email, and the sending domain needs weeks of warm-up.
+
+**Verdict on "5 Ways" vs "4 Ways": the dry-run rule is met** (lead-signals ran end to end on Treg). Recommendation: **5 Ways**, keeping system 5 short and honest about the contact step. Chris to confirm.
+
+**Totals for the night:** Treg $0.18 (images $0.15, AEO $0.021, signals $0.008); ScrapeCreators 8 credits. Video render not run (needs the voice clip and `treg login`; balance is now $10.82, enough for 2 clips at ~$5.45).
+
 ---
 
 # Skill notes: what each skill does when it runs
