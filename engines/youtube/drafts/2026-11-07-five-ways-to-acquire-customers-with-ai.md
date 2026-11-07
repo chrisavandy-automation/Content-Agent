@@ -197,7 +197,7 @@ Dry run 7 Nov, evening, in Claude Code on the web. Outputs in `hollowmere-demo/o
 - Run 2 (page plan + seo-programmatic score): `outputs/aeo/page-plan.md`. 6 house-type × town pages + cost page + installer page + FAQ hub. **Score 58/100**: data quality fails because a made-up company has no survey data, reviews or MCS number. That's the "where it stops" line.
   - Broke (minor): `seo-programmatic` calls a `metadata_template.py` script that `npx skills` doesn't install. The score still works without it.
 
-**System 4, quiz funnel: worked.** ~20 min (19:11–19:31), $0.
+**System 4, quiz funnel: worked.** ~3 min of machine time (19:10–19:13 by the session clock), $0. On camera, allow ~5 min for the page to build.
 - Run (scorecard-marketing → frontend-design): `outputs/quiz-funnel/scorecard-design.md` (hook, contact form first, 8 questions in 3 categories, each question traced to a review or comment, scoring, 3 tiers, follow-up by tier) and `outputs/quiz-funnel/index.html` (one file, nothing sent anywhere).
   - The design's one bold move: the results show a line drawing of a semi whose loft and walls, radiators and cylinder, and garden fill in by category score. Good B-roll.
   - Tested in a headless browser, desktop and phone: an empty form shows the error; a mid run scores 69 "Nearly there" → book a survey; a low run scores 9 "Fix the house first" → the checklist first, then the survey. No JS errors, no sideways scroll.
