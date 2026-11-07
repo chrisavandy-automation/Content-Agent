@@ -214,6 +214,12 @@ Dry run 7 Nov, evening, in Claude Code on the web. Outputs in `hollowmere-demo/o
 - Run 2 (cold-email): 3-email sequences for the top 3, first line from the signal, opt-out and address in every email, no invented proof (Hollowmere has none). `outputs/cold-email/sequences.md`.
 - The "where it stops" line writes itself: the data costs pennies, but finding the right person is patchy, a person must check the title and the email, and the sending domain needs weeks of warm-up.
 
+**System 2 render (later on 7 Nov): worked.** Two 10 s clips (#1 old semi, #3 stone houses, both cold-audience), presenter = invented builder in a kitchen with a stripped boiler, voice = stock Gemini TTS voice (no real person's voice; picked over recording Chris). **Cost $5.42** in total (voice samples $0.02, character $0.06, clips $2.67 each). `outputs/video-ads/clips/` and `bill.md`.
+- Broke: `treg login --email` falls back to a browser link. Open it on a phone and approve; that works in the cloud.
+- Broke: Treg's video files come from `reapiflexible.b-cdn.net` and MiniMax audio from an aliyuncs host. Both added to the Default environment.
+- "AI presenter" label burned on with ffmpeg. Captions left for the edit.
+- On camera: say the voice is a stock AI voice and the presenter is invented; never a customer.
+
 **Verdict on "5 Ways" vs "4 Ways": the dry-run rule is met** (lead-signals ran end to end on Treg). Recommendation: **5 Ways**, keeping system 5 short and honest about the contact step. Chris to confirm.
 
 **Totals for the night:** Treg $0.18 (images $0.15, AEO $0.021, signals $0.008); ScrapeCreators 8 credits. Video render not run (needs the voice clip and `treg login`; balance is now $10.82, enough for 2 clips at ~$5.45).
