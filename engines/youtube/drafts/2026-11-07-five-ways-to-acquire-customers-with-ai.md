@@ -220,7 +220,7 @@ Dry run 7 Nov, evening, in Claude Code on the web. Outputs in `hollowmere-demo/o
 - "AI presenter" label burned on with ffmpeg. Captions left for the edit.
 - On camera: say the voice is a stock AI voice and the presenter is invented; never a customer.
 
-**Verdict on "5 Ways" vs "4 Ways": the dry-run rule is met** (lead-signals ran end to end on Treg). Recommendation: **5 Ways**, keeping system 5 short and honest about the contact step. Chris to confirm.
+**Verdict: "5 Ways" (confirmed by Chris, 7 Nov).** The dry-run rule is met (lead-signals ran end to end on Treg). Recommendation: **5 Ways**, keeping system 5 short and honest about the contact step. Chris to confirm.
 
 **Totals for the night:** Treg $0.18 (images $0.15, AEO $0.021, signals $0.008); ScrapeCreators 8 credits. Video render not run (needs the voice clip and `treg login`; balance is now $10.82, enough for 2 clips at ~$5.45).
 
