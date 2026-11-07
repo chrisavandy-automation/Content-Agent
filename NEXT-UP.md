@@ -16,5 +16,6 @@ Delete items as they're done.
 - [ ] Artifact skill: brand book in HTML, one inbox for everything made.
 - [ ] Self-triggered skills: after the dashboard exists.
 - [x] YouTube week built (6 Nov): `youtube-card`, `youtube-hooks`, card template, demo company, Thursday check. 15 repo ideas moved to the Notion Idea Bank.
+- [ ] Parked (7 Nov): the Thursday "YouTube Saturday check" scheduled task has no Notion connector attached, so it can't read the Idea Bank. Fix in claude.ai (edit the task, add Notion) or recreate it there.
 - [ ] FIRST REAL RUN of `youtube-card` on the next video; fix whatever breaks. After 2–3 posted videos: build `youtube-publish` (edit → thumbnail → description → Shorts).
 - [x] Old branches deleted (6 Nov); `main` is the default on GitHub.
