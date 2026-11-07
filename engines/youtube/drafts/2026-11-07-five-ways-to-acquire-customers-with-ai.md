@@ -189,6 +189,14 @@ Dry run 7 Nov, evening, in Claude Code on the web. Outputs in `hollowmere-demo/o
   - Cheaper routes checked: HeyGen Avatar IV $0.50 a clip (talking photo), Seedance 480p $1.19. **Decision: don't go cheap**; quality matters on camera. Stay on Seedance 2.5 720p.
   - Script wording to watch: "we" means Hollowmere; the presenter never says "I had one" or "my house".
 
+**System 3, AEO: worked.** ~15 min (18:57–19:12) including one price question. **Cost: $0.021** on Treg (9 calls).
+- Run 1 (ai-seo): no browser logins to ChatGPT/Perplexity here, so the questions went through Treg: ChatGPT with web search (`cloro.ai-search.chatgpt.scrape`, GB, $0.0028), Perplexity (`perplexity.web.answer.fast`, ~$0.0017), Google AI Mode (`cloro.google.serp.ai_mode`, GB, $0.0024). Output: `outputs/aeo/aeo-audit.md` (citation table, why them, what Hollowmere needs).
+  - Broke: Google **AI Overview** (`litescrape.google.serp.ai_overview`) returned 503 on all 3 (unbilled). AI Mode stood in. On camera, say "Google's AI answers".
+  - Best on-screen moments: for "best installer in Leeds", all three engines name local firms from **directories + Google Business Profiles with their MCS numbers**, not from installer websites. For "1930s semi", they cite pages built for that exact house type. For cost, Google AI Mode cites Octopus Energy's own cost blog first.
+  - The answers name real local installers: **blur them on screen.**
+- Run 2 (page plan + seo-programmatic score): `outputs/aeo/page-plan.md`. 6 house-type × town pages + cost page + installer page + FAQ hub. **Score 58/100**: data quality fails because a made-up company has no survey data, reviews or MCS number. That's the "where it stops" line.
+  - Broke (minor): `seo-programmatic` calls a `metadata_template.py` script that `npx skills` doesn't install. The score still works without it.
+
 ---
 
 # Skill notes: what each skill does when it runs
