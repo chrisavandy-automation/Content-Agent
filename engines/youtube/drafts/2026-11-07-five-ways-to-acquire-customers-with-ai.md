@@ -162,7 +162,25 @@ Say: every skill is linked in the description. One ask: which of the five should
 - Chapters: [paste from the edit]
 
 ### Dry-run notes
-- [what broke, the command that actually worked, what each run cost]
+Dry run 7 Nov, evening, in Claude Code on the web. Outputs in `hollowmere-demo/outputs/<system>/`.
+
+**Before starting**
+- Treg balance $1.00. ScrapeCreators 1,071 credits.
+- `treg` CLI installs fine (v0.30.0, PyPI), but `treg login` needs a browser sign-in, so the CLI stays signed out in the cloud. The Treg **connector** works for every call; only `make-ugc`'s `treg host` upload needs the CLI. Fix before recording video: run `treg login` on the laptop, then `treg org agent-new` and save the token as a network secret, or sign in here.
+- Price check (asked on the night): Seedance 2.5 on Treg $0.267/s at 720p (~$3 for an 11 s clip). kie.ai's Seedance 2.0 is ~$0.205/s but it's the older model, needs a $5 top-up and a key, and `kie.ai` (the site) doesn't resolve here (only `api.kie.ai` is allowed). Images: Nano Banana Pro is **$0.03** on Treg vs ~$0.09 on kie. Verdict: stay on Treg.
+
+**System 1, ad creative: worked.** ~60 min wall clock (17:51–18:50), including two price questions and one worker restart. Hands-on is ~25 min.
+- Run 1 (teardown): Octopus Energy + Aira, active GB Meta ads, 55 ads + 2 video transcripts. **Cost: 8 ScrapeCreators credits.** Saved as `inputs/winning-ads/competitor-teardown.md`.
+  - Broke: searching "Aira" returns airlines. Use **"Aira Home"** (page "Aira", Energy Company). Say the full brand name in the prompt.
+  - Octopus: only ~3 of its 30 ads are heat pumps (the rest are solar, EV, tariffs). Aira is the better teardown on camera.
+  - Good on-camera line: Aira's angle is "the Swedish way". Hollowmere's gap is local house types (1930s semis, back-to-backs, stone terraces).
+- Run 2 (ad-creative, Mode 3): 30 concepts, INDEX.md, one file per concept, each citing its review/comment. `outputs/ad-creative/`.
+  - On-camera moment: the S-tier templates (Founder Message, Origin Story) and Stat Callout **can't** be used: a made-up company has no founder story and no numbers. INDEX.md lists what was skipped and why. That's "every claim traces to source" made visible.
+  - The AI-tell check flagged concept 7 ("not one, but"); it's a verbatim review quote, so it stays.
+- Run 3 (images): 5 images (concepts 1, 2, 6, 15, 24), Nano Banana Pro via Treg. **Cost: $0.15** (balance $1.00 → $0.85). Realistic, no text, no faces.
+  - Broke: Treg's image files are served from `file.deepytb.com`, which the cloud environment blocked. **Added to the Default environment's allowed hosts on 7 Nov.** Video files come from the same host.
+  - Broke: the poll needs `query: {id: <task id>}`, not `pathParams`.
+- Review page: `outputs/ad-creative/review.html`, 4 angle tabs, renders clean with the images. Shortlist for the pick-on-camera: 1, 2, 3, 6, 10, 11, 15, 16, 17, 19, 21, 24, 29.
 
 ---
 
