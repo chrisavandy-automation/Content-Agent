@@ -182,6 +182,13 @@ Dry run 7 Nov, evening, in Claude Code on the web. Outputs in `hollowmere-demo/o
   - Broke: the poll needs `query: {id: <task id>}`, not `pathParams`.
 - Review page: `outputs/ad-creative/review.html`, 4 angle tabs, renders clean with the images. Shortlist for the pick-on-camera: 1, 2, 3, 6, 10, 11, 15, 16, 17, 19, 21, 24, 29.
 
+**System 2, video ads: scripts worked, render not run yet.** Scripts ~5 min (18:51–18:56) plus two price questions, $0. Render: blocked, see below.
+- Run 1: 20 verbatim phrases (doubts and results, each traced to reviews/comments) + 15 scripts, 22–28 words, a different opening move each. `outputs/video-ads/scripts.md`. A word-count check and a "never claims to be a customer" check run on every script; the second caught "Ours rings you" (changed to "Hollowmere rings you"). Suggested picks: #2 (noise) and #5 (radiators).
+- Run 2 (make-ugc): **not run.** Quote: ~$5.45 for 2 clips at 720p (trends $0.04, character $0.07, clips $5.34 at $0.267/s). Full plan and the Seedance call: `outputs/video-ads/render-plan.md`.
+  - Blockers before recording: (1) Treg top-up to ~$10; (2) `treg login` (browser) so `treg host` can upload the voice clip; (3) record `inputs/voice.mp3`; (4) captions need an OpenAI key, or do them in attentionmachine.
+  - Cheaper routes checked: HeyGen Avatar IV $0.50 a clip (talking photo), Seedance 480p $1.19. **Decision: don't go cheap**; quality matters on camera. Stay on Seedance 2.5 720p.
+  - Script wording to watch: "we" means Hollowmere; the presenter never says "I had one" or "my house".
+
 ---
 
 # Skill notes: what each skill does when it runs
