@@ -43,7 +43,7 @@ Parked: Google Search ads (learn it first), personalised video prospecting, YouT
 - The Notion card said to wait for André M2 (9 Nov). Recording on the 7th is fine; **post after the 9th**.
 
 ### Hooks
-**Picked 8 Nov (youtube-hooks, new set):** title unchanged · thumbnail **AI = CUSTOMERS** (Claude icon) · first 15 s, after 2-3 s of the AI builder clip: "If you want more customers and you're already using Claude, I'm going to build you five systems you can copy today. Same business, same screen, every skill linked below." Type `icp-callout`, Value lane. Thumbnail test B (optional): the builder's face + HE'S NOT REAL. The five hooks below are the earlier set (6 Nov), kept for reference.
+**Picked 8 Nov (youtube-hooks, new set):** title unchanged · thumbnail **AI = CUSTOMERS** (Claude icon) · first 15 s (Chris's warmer version, 8 Nov), after 2-3 s of the AI builder clip: "Hey, I'm Chris. If you run a business and you're trying to get more customers online, here are five ways you can use Claude to do it. I'm going to build every one live, for a made-up heat pump company, and every skill I use is linked below." Type `icp-callout`, Value lane. Thumbnail test B (optional): the builder's face + HE'S NOT REAL. The five hooks below are the earlier set (6 Nov), kept for reference.
 
 5 options. Lane: Value. 4 proven + 1 wildcard, one `plain`. YouTube hook = title + thumbnail + first 15 seconds. The first-15 lines are in the future tense so they're true before the build exists. I pick. No score.
 
